@@ -1,0 +1,118 @@
+
+Number: 0
+Name: Аренда виртуального сервера (VPS)
+Activity Cost    (Рубль): 11 105 000,00
+Cost Center: Администраторы и техническая поддержка
+Cost Center Cost (Рубль): 381 250,00
+
+Cost Center: Оборудование
+Cost Center Cost (Рубль): 10 342 500,00
+
+Cost Center: Обслуживающий персонал
+Cost Center Cost (Рубль): 381 250,00
+
+Number:   1
+Name: Обработка  заявки клиента 
+Activity Cost    (Рубль): 185,00
+Cost Center: Администраторы и техническая поддержка
+Cost Center Cost (Рубль): 75,00
+
+Cost Center: Оборудование
+Cost Center Cost (Рубль): 35,00
+
+Cost Center: Обслуживающий персонал
+Cost Center Cost (Рубль): 75,00
+
+Number:   2
+Name: Оформление договора и создание счета на оплату
+Activity Cost    (Рубль): 35,00
+Cost Center: Оборудование
+Cost Center Cost (Рубль): 35,00
+
+Number:   3
+Name: Проверка оплаты созданного счета
+Activity Cost    (Рубль): 35,00
+Cost Center: Оборудование
+Cost Center Cost (Рубль): 35,00
+
+Number:   4
+Name: Создание виртуальной машины 
+Activity Cost    (Рубль): 8 150,00
+Cost Center: Администраторы и техническая поддержка
+Cost Center Cost (Рубль): 50,00
+
+Cost Center: Оборудование
+Cost Center Cost (Рубль): 8 050,00
+
+Cost Center: Обслуживающий персонал
+Cost Center Cost (Рубль): 50,00
+
+Number:     8
+Name: Установка базового программного обеспечения
+Activity Cost    (Рубль): 0,00
+
+Number:     1
+Name: Запуск автоматизир. скрипта создания VPS
+Activity Cost    (Рубль): 50,00
+Cost Center: Оборудование
+Cost Center Cost (Рубль): 50,00
+
+Number:     7
+Name: Установка базовых конфигураций
+Activity Cost    (Рубль): 0,00
+
+Number:     2
+Name: Выбор образа ОС
+Activity Cost    (Рубль): 0,00
+
+Number:     9
+Name: Установка запрошенного программного обеспечения
+Activity Cost    (Рубль): 0,00
+
+Number:     3
+Name: Выюор образа  ОС Windows
+Activity Cost    (Рубль): 0,00
+
+Number:     4
+Name: Выбор образ  ОС Linux
+Activity Cost    (Рубль): 0,00
+
+Number:     10
+Name: Тестовый перезапуск виртуальной машины
+Activity Cost    (Рубль): 0,00
+
+Number:     5
+Name: Выделение ресурсов гипервизором
+Activity Cost    (Рубль): 8 000,00
+Cost Center: Оборудование
+Cost Center Cost (Рубль): 8 000,00
+
+Number:     12
+Name: Автоматизированная и ручная отладка VM
+Activity Cost    (Рубль): 100,00
+Cost Center: Администраторы и техническая поддержка
+Cost Center Cost (Рубль): 50,00
+
+Cost Center: Обслуживающий персонал
+Cost Center Cost (Рубль): 50,00
+
+Number:     6
+Name: Создание VPS гипервизиром
+Activity Cost    (Рубль): 0,00
+
+Number:     11
+Name: Передача данных в скрипт предоставления прав доступа
+Activity Cost    (Рубль): 0,00
+
+Number:     13
+Name: Удаление  виртуальной машины
+Activity Cost    (Рубль): 0,00
+
+Number:   5
+Name: Предоставление  прав доступа к VPS
+Activity Cost    (Рубль): 150,00
+Cost Center: Администраторы и техническая поддержка
+Cost Center Cost (Рубль): 75,00
+
+Cost Center: Обслуживающий персонал
+Cost Center Cost (Рубль): 75,00
