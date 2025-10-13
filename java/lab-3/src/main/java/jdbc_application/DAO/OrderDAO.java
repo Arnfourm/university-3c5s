@@ -1,0 +1,119 @@
+package jdbc_application.DAO;
+
+import jdbc_application.models.Orders;
+import jdbc_application.models.Users;
+
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
+
+public class OrderDAO {
+    private static final String url = "jdbc:postgresql://127.0.0.1/jdbc_lab_3";
+    private static final String user = "postgres";
+    private static final String pass = "1234";
+
+    public static List<Orders> GetOrders(){
+        String sql = "SELECT * FROM ORDERS;";
+        List<Orders> ordersList = new ArrayList<>();
+
+        try (Connection conn = DriverManager.getConnection(url, user, pass);){
+            Statement state = conn.createStatement();
+            ResultSet result = state.executeQuery(sql);
+
+            while (result.next()){
+                ordersList.add(new Orders(
+                        result.getInt("id"),
+                        result.getInt("user_id"),
+                        result.getInt("config_id"),
+                        result.getFloat("total"),
+                        result.getDate("order_date"),
+                        result.getTime("order_time")
+                ));
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return ordersList;
+    }
+
+    public static Orders GetOrderById(int id){
+        String sql = "SELECT * FROM ORDER WHERE id = ?";
+        Orders currentOrder = null;
+
+        try (Connection conn = DriverManager.getConnection(url, user, pass)){
+            PreparedStatement preparedStatement = conn.prepareStatement(sql);
+            preparedStatement.setInt(1, id);
+
+            ResultSet result = preparedStatement.executeQuery();
+
+            if (result.next()) {
+                currentOrder = new Orders(
+                        result.getInt("id"),
+                        result.getInt("user_id"),
+                        result.getInt("config_id"),
+                        result.getFloat("total"),
+                        result.getDate("order_date"),
+                        result.getTime("order_time")
+                );
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return currentOrder;
+    }
+
+    public static boolean CreateOrder(int user_id, int config_id, float total, Date order_date, Time order_time) {
+        String sql = "INSERT INTO ORDERS(user_id, config_id, total, order_date, order_time)" +
+                     "VALUES (?, ?, ?, ?, ?)";
+        boolean resultFlag = true;
+
+        try (Connection conn = DriverManager.getConnection(url, user, pass)){
+            PreparedStatement preparedStatement = conn.prepareStatement(sql);
+            preparedStatement.setInt(1, user_id);
+            preparedStatement.setInt(2, config_id);
+            preparedStatement.setFloat(3, total);
+            preparedStatement.setDate(4, order_date);
+            preparedStatement.setTime(5, order_time);
+
+            try {
+                preparedStatement.executeQuery();
+            } catch (Exception e) {
+                e.printStackTrace();
+                resultFlag = false;
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            resultFlag = false;
+        }
+
+        return resultFlag;
+    }
+
+    public static boolean DeleteOrder(int id){
+        String sql = "DELETE FROM ORDERS WHERE id = ?";
+        boolean resultFlag = true;
+
+        try (Connection conn = DriverManager.getConnection(url, user, pass)){
+            PreparedStatement preparedStatement = conn.prepareStatement(sql);
+            preparedStatement.setInt(1, id);
+
+            try {
+                preparedStatement.executeQuery();
+            } catch (Exception e) {
+                e.printStackTrace();
+                resultFlag = false;
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            resultFlag = false;
+        }
+
+        return resultFlag;
+    }
+}
