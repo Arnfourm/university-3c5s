@@ -66,13 +66,13 @@ public class OrderDAO {
         return currentOrder;
     }
 
-    public static boolean CreateOrder(int user_id, int config_id, float total, Date order_date, Time order_time) {
+    public static int CreateOrder(int user_id, int config_id, float total, Date order_date, Time order_time) {
         String sql = "INSERT INTO ORDERS(user_id, config_id, total, order_date, order_time)" +
                      "VALUES (?, ?, ?, ?, ?)";
-        boolean resultFlag = true;
+        int newOrderId = -1;
 
         try (Connection conn = DriverManager.getConnection(url, user, pass)){
-            PreparedStatement preparedStatement = conn.prepareStatement(sql);
+            PreparedStatement preparedStatement = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
             preparedStatement.setInt(1, user_id);
             preparedStatement.setInt(2, config_id);
             preparedStatement.setFloat(3, total);
@@ -80,18 +80,20 @@ public class OrderDAO {
             preparedStatement.setTime(5, order_time);
 
             try {
-                preparedStatement.executeQuery();
+                preparedStatement.executeUpdate();
+                ResultSet result = preparedStatement.getGeneratedKeys();
+
+                result.next();
+                newOrderId = result.getInt(1);
             } catch (Exception e) {
                 e.printStackTrace();
-                resultFlag = false;
             }
 
         } catch (Exception e) {
             e.printStackTrace();
-            resultFlag = false;
         }
 
-        return resultFlag;
+        return newOrderId;
     }
 
     public static boolean DeleteOrder(int id){
@@ -103,7 +105,7 @@ public class OrderDAO {
             preparedStatement.setInt(1, id);
 
             try {
-                preparedStatement.executeQuery();
+                preparedStatement.executeUpdate();
             } catch (Exception e) {
                 e.printStackTrace();
                 resultFlag = false;

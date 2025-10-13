@@ -65,31 +65,33 @@ public class ConfigurationDAO {
         return currentConfig;
     }
 
-    public static boolean CreateConfiguration(String cpu_name, float cpu_ghz, int ram_volume, int disk_volume) {
+    public static int CreateConfiguration(String cpu_name, float cpu_ghz, int ram_volume, int disk_volume) {
         String sql = "INSERT INTO configurations(cpu_name, cpu_ghz, ram_volume, disk_volume)" +
                      "VALUES (?, ?, ?, ?)";
-        boolean resultFlag = true;
+        int newConfigId = -1;
 
         try (Connection conn = DriverManager.getConnection(url, user, pass)){
-            PreparedStatement preparedStatement = conn.prepareStatement(sql);
+            PreparedStatement preparedStatement = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
             preparedStatement.setString(1, cpu_name);
             preparedStatement.setFloat(2, cpu_ghz);
             preparedStatement.setInt(3, ram_volume);
             preparedStatement.setInt(4, disk_volume);
 
             try {
-                preparedStatement.executeQuery();
+                preparedStatement.executeUpdate();
+                ResultSet result = preparedStatement.getGeneratedKeys();
+
+                result.next();
+                newConfigId = result.getInt(1);
             } catch (Exception e) {
                 e.printStackTrace();
-                resultFlag = false;
             }
 
         } catch (Exception e) {
             e.printStackTrace();
-            resultFlag = false;
         }
 
-        return resultFlag;
+        return newConfigId;
     }
 
     public static boolean DeleteConfiguration(int id){
@@ -101,7 +103,7 @@ public class ConfigurationDAO {
             preparedStatement.setInt(1, id);
 
             try {
-                preparedStatement.executeQuery();
+                preparedStatement.executeUpdate();
             } catch (Exception e) {
                 e.printStackTrace();
                 resultFlag = false;

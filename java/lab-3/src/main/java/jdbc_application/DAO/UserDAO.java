@@ -61,30 +61,32 @@ public class UserDAO {
         return currentUser;
     }
 
-    public static boolean CreateUser(String name, String surname, String email) {
+    public static int CreateUser(String name, String surname, String email) {
         String sql = "INSERT INTO USERS(name, surname, email)" +
                      "VALUES (?, ?, ?)";
-        boolean resultFlag = true;
+        int newUserId = -1;
 
         try (Connection conn = DriverManager.getConnection(url, user, pass)){
-            PreparedStatement preparedStatement = conn.prepareStatement(sql);
+            PreparedStatement preparedStatement = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
             preparedStatement.setString(1, name);
             preparedStatement.setString(2, surname);
             preparedStatement.setString(3, email);
 
             try {
                 preparedStatement.executeUpdate();
+                ResultSet result = preparedStatement.getGeneratedKeys();
+
+                result.next();
+                newUserId = result.getInt(1);
             } catch (Exception e) {
                 e.printStackTrace();
-                resultFlag = false;
             }
 
         } catch (Exception e) {
             e.printStackTrace();
-            resultFlag = false;
         }
 
-        return resultFlag;
+        return newUserId;
     }
 
     public static boolean DeleteUser(int id){
