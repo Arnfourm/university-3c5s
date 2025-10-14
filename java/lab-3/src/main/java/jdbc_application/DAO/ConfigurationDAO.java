@@ -1,7 +1,6 @@
 package jdbc_application.DAO;
 
 import jdbc_application.models.Configurations;
-import jdbc_application.models.Orders;
 import jdbc_application.models.Users;
 
 import java.sql.*;
@@ -104,6 +103,48 @@ public class ConfigurationDAO {
 
             try {
                 preparedStatement.executeUpdate();
+            } catch (Exception e) {
+                e.printStackTrace();
+                resultFlag = false;
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            resultFlag = false;
+        }
+
+        return resultFlag;
+    }
+
+    public static boolean UpdateConfiguration(int id, String name, String surname, String email){
+        String sql = "UPDATE CONFIGURATIONS" +
+                     "SET NAME = ?, SURNAME = ?, EMAIL = ?" +
+                     "WHERE id = ?";
+        boolean resultFlag = true;
+
+        try (Connection conn = DriverManager.getConnection(url, user, pass)){
+            PreparedStatement preparedStatement = conn.prepareStatement(sql);
+            Users currentUser = UserDAO.GetUserById(id);
+
+            if (name != null){
+                preparedStatement.setString(1, name);
+            } else {
+                preparedStatement.setString(1, currentUser.GetName());
+            }
+            if (surname != null){
+                preparedStatement.setString(2, surname);
+            } else {
+                preparedStatement.setString(2, currentUser.GetSurname());
+            }
+            if (email != null){
+                preparedStatement.setString(3, email);
+            } else {
+                preparedStatement.setString(3, currentUser.GetEmail());
+            }
+            preparedStatement.setInt(4, id);
+
+            try {
+                preparedStatement.executeQuery();
             } catch (Exception e) {
                 e.printStackTrace();
                 resultFlag = false;
