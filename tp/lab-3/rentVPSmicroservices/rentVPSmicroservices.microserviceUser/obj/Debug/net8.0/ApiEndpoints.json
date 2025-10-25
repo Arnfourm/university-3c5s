@@ -1,43 +1,27 @@
 [
   {
     "ContainingType": "rentVPSmicroservices.microserviceUser.Controllers.UsersController",
-    "Method": "Index",
+    "Method": "GetUsers",
     "RelativePath": "api/Users",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "rentVPSmicroservices.microserviceUser.Controllers.UsersController",
-    "Method": "Details",
-    "RelativePath": "api/Users",
-    "HttpMethod": "",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
+    "ReturnTypes": [
       {
-        "Name": "id",
-        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[rentVPSmicroservices.microserviceUser.Models.User, rentVPSmicroservices.microserviceUser, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
       }
-    ],
-    "ReturnTypes": []
+    ]
   },
   {
     "ContainingType": "rentVPSmicroservices.microserviceUser.Controllers.UsersController",
-    "Method": "Create",
-    "RelativePath": "api/Users",
-    "HttpMethod": "",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "rentVPSmicroservices.microserviceUser.Controllers.UsersController",
-    "Method": "Create",
+    "Method": "PostUser",
     "RelativePath": "api/Users",
     "HttpMethod": "POST",
     "IsController": true,
@@ -49,36 +33,56 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "rentVPSmicroservices.microserviceUser.Controllers.UsersController",
-    "Method": "Edit",
-    "RelativePath": "api/Users",
-    "HttpMethod": "",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
+    "ReturnTypes": [
       {
-        "Name": "id",
-        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
+        "Type": "rentVPSmicroservices.microserviceUser.Models.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
       }
-    ],
-    "ReturnTypes": []
+    ]
   },
   {
     "ContainingType": "rentVPSmicroservices.microserviceUser.Controllers.UsersController",
-    "Method": "Edit",
-    "RelativePath": "api/Users",
-    "HttpMethod": "POST",
+    "Method": "GetUser",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "id",
         "Type": "System.Guid",
-        "IsRequired": false
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "rentVPSmicroservices.microserviceUser.Models.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "rentVPSmicroservices.microserviceUser.Controllers.UsersController",
+    "Method": "PutUser",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
       },
       {
         "Name": "user",
@@ -90,32 +94,16 @@
   },
   {
     "ContainingType": "rentVPSmicroservices.microserviceUser.Controllers.UsersController",
-    "Method": "Delete",
-    "RelativePath": "api/Users",
-    "HttpMethod": "",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "rentVPSmicroservices.microserviceUser.Controllers.UsersController",
-    "Method": "DeleteConfirmed",
-    "RelativePath": "api/Users",
-    "HttpMethod": "POST",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "id",
         "Type": "System.Guid",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

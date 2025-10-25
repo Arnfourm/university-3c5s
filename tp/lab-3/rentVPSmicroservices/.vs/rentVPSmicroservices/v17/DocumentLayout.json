@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "D:\\university-3c5s\\tp\\lab-3\\rentVPSmicroservices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ECE0D83C-CF5C-49D7-B512-910D768F878A}|rentVPSmicroservices.microserviceUser\\rentVPSmicroservices.microserviceUser.csproj|d:\\university-3c5s\\tp\\lab-3\\rentvpsmicroservices\\rentvpsmicroservices.microserviceuser\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECE0D83C-CF5C-49D7-B512-910D768F878A}|rentVPSmicroservices.microserviceUser\\rentVPSmicroservices.microserviceUser.csproj|solutionrelative:rentvpsmicroservices.microserviceuser\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5DC34BA-1722-47FC-A3C6-320FD93B8583}|rentVPSmicroservices.microserviceConfigs\\rentVPSmicroservices.microserviceConfigs.csproj|d:\\university-3c5s\\tp\\lab-3\\rentvpsmicroservices\\rentvpsmicroservices.microserviceconfigs\\controllers\\configurationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5DC34BA-1722-47FC-A3C6-320FD93B8583}|rentVPSmicroservices.microserviceConfigs\\rentVPSmicroservices.microserviceConfigs.csproj|solutionrelative:rentvpsmicroservices.microserviceconfigs\\controllers\\configurationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5DC34BA-1722-47FC-A3C6-320FD93B8583}|rentVPSmicroservices.microserviceConfigs\\rentVPSmicroservices.microserviceConfigs.csproj|d:\\university-3c5s\\tp\\lab-3\\rentvpsmicroservices\\rentvpsmicroservices.microserviceconfigs\\contexts\\configcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5DC34BA-1722-47FC-A3C6-320FD93B8583}|rentVPSmicroservices.microserviceConfigs\\rentVPSmicroservices.microserviceConfigs.csproj|solutionrelative:rentvpsmicroservices.microserviceconfigs\\contexts\\configcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5DC34BA-1722-47FC-A3C6-320FD93B8583}|rentVPSmicroservices.microserviceConfigs\\rentVPSmicroservices.microserviceConfigs.csproj|d:\\university-3c5s\\tp\\lab-3\\rentvpsmicroservices\\rentvpsmicroservices.microserviceconfigs\\models\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5DC34BA-1722-47FC-A3C6-320FD93B8583}|rentVPSmicroservices.microserviceConfigs\\rentVPSmicroservices.microserviceConfigs.csproj|solutionrelative:rentvpsmicroservices.microserviceconfigs\\models\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5DC34BA-1722-47FC-A3C6-320FD93B8583}|rentVPSmicroservices.microserviceConfigs\\rentVPSmicroservices.microserviceConfigs.csproj|d:\\university-3c5s\\tp\\lab-3\\rentvpsmicroservices\\rentvpsmicroservices.microserviceconfigs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5DC34BA-1722-47FC-A3C6-320FD93B8583}|rentVPSmicroservices.microserviceConfigs\\rentVPSmicroservices.microserviceConfigs.csproj|solutionrelative:rentvpsmicroservices.microserviceconfigs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECE0D83C-CF5C-49D7-B512-910D768F878A}|rentVPSmicroservices.microserviceUser\\rentVPSmicroservices.microserviceUser.csproj|d:\\university-3c5s\\tp\\lab-3\\rentvpsmicroservices\\rentvpsmicroservices.microserviceuser\\contexts\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECE0D83C-CF5C-49D7-B512-910D768F878A}|rentVPSmicroservices.microserviceUser\\rentVPSmicroservices.microserviceUser.csproj|solutionrelative:rentvpsmicroservices.microserviceuser\\contexts\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECE0D83C-CF5C-49D7-B512-910D768F878A}|rentVPSmicroservices.microserviceUser\\rentVPSmicroservices.microserviceUser.csproj|d:\\university-3c5s\\tp\\lab-3\\rentvpsmicroservices\\rentvpsmicroservices.microserviceuser\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECE0D83C-CF5C-49D7-B512-910D768F878A}|rentVPSmicroservices.microserviceUser\\rentVPSmicroservices.microserviceUser.csproj|solutionrelative:rentvpsmicroservices.microserviceuser\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ECE0D83C-CF5C-49D7-B512-910D768F878A}|rentVPSmicroservices.microserviceUser\\rentVPSmicroservices.microserviceUser.csproj|d:\\university-3c5s\\tp\\lab-3\\rentvpsmicroservices\\rentvpsmicroservices.microserviceuser\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECE0D83C-CF5C-49D7-B512-910D768F878A}|rentVPSmicroservices.microserviceUser\\rentVPSmicroservices.microserviceUser.csproj|solutionrelative:rentvpsmicroservices.microserviceuser\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECE0D83C-CF5C-49D7-B512-910D768F878A}|rentVPSmicroservices.microserviceUser\\rentVPSmicroservices.microserviceUser.csproj|d:\\university-3c5s\\tp\\lab-3\\rentvpsmicroservices\\rentvpsmicroservices.microserviceuser\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECE0D83C-CF5C-49D7-B512-910D768F878A}|rentVPSmicroservices.microserviceUser\\rentVPSmicroservices.microserviceUser.csproj|solutionrelative:rentvpsmicroservices.microserviceuser\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECE0D83C-CF5C-49D7-B512-910D768F878A}|rentVPSmicroservices.microserviceUser\\rentVPSmicroservices.microserviceUser.csproj|d:\\university-3c5s\\tp\\lab-3\\rentvpsmicroservices\\rentvpsmicroservices.microserviceuser\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE0D83C-CF5C-49D7-B512-910D768F878A}|rentVPSmicroservices.microserviceUser\\rentVPSmicroservices.microserviceUser.csproj|solutionrelative:rentvpsmicroservices.microserviceuser\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,7 +37,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 294,
+          "DockedWidth": 327,
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -43,32 +51,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\university-3c5s\\tp\\lab-3\\rentVPSmicroservices\\rentVPSmicroservices.microserviceUser\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "rentVPSmicroservices.microserviceUser\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\university-3c5s\\tp\\lab-3\\rentVPSmicroservices\\rentVPSmicroservices.microserviceUser\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "rentVPSmicroservices.microserviceUser\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAtwBsAAAA8AAAAAAAAAA==",
+              "Title": "ConfigurationsController.cs",
+              "DocumentMoniker": "D:\\university-3c5s\\tp\\lab-3\\rentVPSmicroservices\\rentVPSmicroservices.microserviceConfigs\\Controllers\\ConfigurationsController.cs",
+              "RelativeDocumentMoniker": "rentVPSmicroservices.microserviceConfigs\\Controllers\\ConfigurationsController.cs",
+              "ToolTip": "D:\\university-3c5s\\tp\\lab-3\\rentVPSmicroservices\\rentVPSmicroservices.microserviceConfigs\\Controllers\\ConfigurationsController.cs",
+              "RelativeToolTip": "rentVPSmicroservices.microserviceConfigs\\Controllers\\ConfigurationsController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwFUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T12:29:09.719Z",
+              "WhenOpened": "2025-10-25T15:01:12.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "D:\\university-3c5s\\tp\\lab-3\\rentVPSmicroservices\\rentVPSmicroservices.microserviceConfigs\\Models\\Configuration.cs",
+              "RelativeDocumentMoniker": "rentVPSmicroservices.microserviceConfigs\\Models\\Configuration.cs",
+              "ToolTip": "D:\\university-3c5s\\tp\\lab-3\\rentVPSmicroservices\\rentVPSmicroservices.microserviceConfigs\\Models\\Configuration.cs",
+              "RelativeToolTip": "rentVPSmicroservices.microserviceConfigs\\Models\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T14:48:21.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConfigContext.cs",
+              "DocumentMoniker": "D:\\university-3c5s\\tp\\lab-3\\rentVPSmicroservices\\rentVPSmicroservices.microserviceConfigs\\Contexts\\ConfigContext.cs",
+              "RelativeDocumentMoniker": "rentVPSmicroservices.microserviceConfigs\\Contexts\\ConfigContext.cs",
+              "ToolTip": "D:\\university-3c5s\\tp\\lab-3\\rentVPSmicroservices\\rentVPSmicroservices.microserviceConfigs\\Contexts\\ConfigContext.cs",
+              "RelativeToolTip": "rentVPSmicroservices.microserviceConfigs\\Contexts\\ConfigContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T14:42:46.473Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\university-3c5s\\tp\\lab-3\\rentVPSmicroservices\\rentVPSmicroservices.microserviceConfigs\\Program.cs",
+              "RelativeDocumentMoniker": "rentVPSmicroservices.microserviceConfigs\\Program.cs",
+              "ToolTip": "D:\\university-3c5s\\tp\\lab-3\\rentVPSmicroservices\\rentVPSmicroservices.microserviceConfigs\\Program.cs",
+              "RelativeToolTip": "rentVPSmicroservices.microserviceConfigs\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T14:41:52.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\university-3c5s\\tp\\lab-3\\rentVPSmicroservices\\rentVPSmicroservices.microserviceUser\\Models\\User.cs",
               "RelativeDocumentMoniker": "rentVPSmicroservices.microserviceUser\\Models\\User.cs",
               "ToolTip": "D:\\university-3c5s\\tp\\lab-3\\rentVPSmicroservices\\rentVPSmicroservices.microserviceUser\\Models\\User.cs",
               "RelativeToolTip": "rentVPSmicroservices.microserviceUser\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-25T12:06:44.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Admin.cs",
               "DocumentMoniker": "D:\\university-3c5s\\tp\\lab-3\\rentVPSmicroservices\\rentVPSmicroservices.microserviceUser\\Models\\Admin.cs",
               "RelativeDocumentMoniker": "rentVPSmicroservices.microserviceUser\\Models\\Admin.cs",
@@ -81,34 +128,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "UserContext.cs",
               "DocumentMoniker": "D:\\university-3c5s\\tp\\lab-3\\rentVPSmicroservices\\rentVPSmicroservices.microserviceUser\\Contexts\\UserContext.cs",
               "RelativeDocumentMoniker": "rentVPSmicroservices.microserviceUser\\Contexts\\UserContext.cs",
               "ToolTip": "D:\\university-3c5s\\tp\\lab-3\\rentVPSmicroservices\\rentVPSmicroservices.microserviceUser\\Contexts\\UserContext.cs",
               "RelativeToolTip": "rentVPSmicroservices.microserviceUser\\Contexts\\UserContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-25T09:50:55.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\university-3c5s\\tp\\lab-3\\rentVPSmicroservices\\rentVPSmicroservices.microserviceUser\\Program.cs",
-              "RelativeDocumentMoniker": "rentVPSmicroservices.microserviceUser\\Program.cs",
-              "ToolTip": "D:\\university-3c5s\\tp\\lab-3\\rentVPSmicroservices\\rentVPSmicroservices.microserviceUser\\Program.cs",
-              "RelativeToolTip": "rentVPSmicroservices.microserviceUser\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T09:16:30.008Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 174,
+          "DockedWidth": 141,
           "SelectedChildIndex": -1,
           "Children": [
             {
@@ -122,6 +156,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

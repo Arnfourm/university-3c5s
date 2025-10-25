@@ -1,0 +1,6 @@
+@rentVPSmicroservices.microserviceOrders_HostAddress = http://localhost:5017
+
+GET {{rentVPSmicroservices.microserviceOrders_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,13 +1,28 @@
-﻿namespace rentVPSmicroservices.microserviceUser.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace rentVPSmicroservices.microserviceUser.Models
 {
     public class User
     {
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Key]
         public Guid Id { get; set; }
         public required string username { get; set; }
         public required string name { get; set; }
         public required string surname { get; set; }
         public required string email { get; set; }
         public required string password { get; set; }
+
+        public User(string username, string name, string surname, string email, string password)
+        {
+            this.username = username;
+            this.name = name;
+            this.surname = surname;
+            this.email = email;
+            this.password = password;
+        }
+
 
         //private Guid _id;
         //private string _username;
