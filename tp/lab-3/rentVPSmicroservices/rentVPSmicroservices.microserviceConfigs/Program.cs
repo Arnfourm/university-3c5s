@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using rentVPSmicroservices.microserviceUser.Contexts;
+using rentVPSmicroservices.microserviceConfig.Contexts;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("rentVPSmicroservices.microserviceOrders")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be4ebd5159474e2f16a4147ac6dc30907c92671d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c1c75db38d3836e0e0c443a4035b3703e6e3497")]
 [assembly: System.Reflection.AssemblyProductAttribute("rentVPSmicroservices.microserviceOrders")]
 [assembly: System.Reflection.AssemblyTitleAttribute("rentVPSmicroservices.microserviceOrders")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

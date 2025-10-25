@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using rentVPSmicroservices.microserviceConfigs.Models;
-using rentVPSmicroservices.microserviceUser.Contexts;
+using rentVPSmicroservices.microserviceConfig.Contexts;
 
 namespace rentVPSmicroservices.microserviceConfigs.Controllers
 {

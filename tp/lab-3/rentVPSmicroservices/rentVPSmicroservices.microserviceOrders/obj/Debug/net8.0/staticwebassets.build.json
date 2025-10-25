@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "UdL+gJUrPrnFtl8oG/slxcYQT7QBzgUF6jkbDWY56S8=",
+  "Source": "rentVPSmicroservices.microserviceOrders",
+  "BasePath": "_content/rentVPSmicroservices.microserviceOrders",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

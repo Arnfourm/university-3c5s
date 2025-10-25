@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using rentVPSmicroservices.microserviceConfigs.Models;
 
-namespace rentVPSmicroservices.microserviceUser.Contexts
+namespace rentVPSmicroservices.microserviceConfig.Contexts
 {
     public class ConfigContext : DbContext
     {

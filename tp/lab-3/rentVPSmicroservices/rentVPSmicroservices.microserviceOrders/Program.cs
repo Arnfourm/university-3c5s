@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using rentVPSmicroservices.microserviceOrder.Contexts;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +9,13 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDbContext<OrderContext>(
+    options =>
+    {
+        options.UseNpgsql("User ID=luver_admin;Password=987654321;Host=192.168.0.192;Port=5432;Database=vps_orders;");
+    }
+);
 
 var app = builder.Build();
 
