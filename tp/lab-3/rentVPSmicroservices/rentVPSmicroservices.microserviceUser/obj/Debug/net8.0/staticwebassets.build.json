@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LxiFICSY3HcTEBrviMYoTZEK8htERUe5emrRi71eOQM=",
+  "Source": "rentVPSmicroservices.microserviceUser",
+  "BasePath": "_content/rentVPSmicroservices.microserviceUser",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
