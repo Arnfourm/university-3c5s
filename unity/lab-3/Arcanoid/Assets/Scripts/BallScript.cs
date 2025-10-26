@@ -35,8 +35,10 @@ public class BallScript : MonoBehaviour {
                 ballPosition.x = playerObject.transform.position.x;
                 ballPosition.y = -4.2f;
                 transform.position = ballPosition;
-    
+
                 GetComponent<Rigidbody2D>().isKinematic = true;
+                
+                playerObject.SendMessage("TakeLife");
             }
         }        
     }
