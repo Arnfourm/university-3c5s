@@ -13,11 +13,11 @@ namespace rentVPSmicroservices.microserviceOrders.Models
         public DateOnly date { get; set; }
         public float rentPerMonth { get; set; }
         
-        public Order (Guid userGuid, Guid configGuid, DateOnly date, float rentPerMonth)
+        public Order (Guid userGuid, Guid configGuid, float rentPerMonth)
         {
             this.userGuid = userGuid;
             this.configGuid = configGuid;
-            this.date = date;
+            this.date = DateOnly.FromDateTime(DateTime.Now);
             this.rentPerMonth = rentPerMonth;
         }
     }

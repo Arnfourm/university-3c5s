@@ -15,6 +15,8 @@ namespace rentVPSmicroservices.microserviceOrders.Controllers
     public class OrdersController : ControllerBase
     {
         private readonly OrderContext _context;
+        private readonly string _userServiceAddress = "http://localhost:5198/api/Users";
+        private readonly string _cconfigServiceAddress = "http://localhost:5082/api/Configurations";
 
         public OrdersController(OrderContext context)
         {
@@ -29,7 +31,7 @@ namespace rentVPSmicroservices.microserviceOrders.Controllers
         }
 
         // GET: api/Orders/5
-        [HttpGet("{id}")]
+        [HttpGet("{id:Guid}")]
         public async Task<ActionResult<Order>> GetOrder(Guid id)
         {
             var order = await _context.Orders.FindAsync(id);
@@ -44,12 +46,32 @@ namespace rentVPSmicroservices.microserviceOrders.Controllers
 
         // PUT: api/Orders/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
+        [HttpPut("{id:Guid}")]
         public async Task<IActionResult> PutOrder(Guid id, Order order)
         {
             if (id != order.id)
             {
                 return BadRequest();
+            }
+
+            HttpClientHandler handler = new HttpClientHandler();
+
+            using (HttpClient client = new HttpClient())
+            {
+                HttpResponseMessage responseUser = await client.GetAsync($"{_userServiceAddress}/{order.userGuid}");
+                HttpResponseMessage responseConfig = await client.GetAsync($"{_cconfigServiceAddress}/{order.configGuid}");
+
+                if (!responseUser.IsSuccessStatusCode)
+                {
+
+                    return NotFound("User Guid is uncorrect");
+                }
+
+                if (!responseConfig.IsSuccessStatusCode)
+                {
+
+                    return NotFound("Config Guid is uncorrect");
+                }
             }
 
             _context.Entry(order).State = EntityState.Modified;
@@ -74,10 +96,29 @@ namespace rentVPSmicroservices.microserviceOrders.Controllers
         }
 
         // POST: api/Orders
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Order>> PostOrder(Order order)
         {
+            HttpClientHandler handler = new HttpClientHandler();
+
+            using (HttpClient client = new HttpClient())
+            {
+                HttpResponseMessage responseUser = await client.GetAsync($"{_userServiceAddress}/{order.userGuid}");
+                HttpResponseMessage responseConfig = await client.GetAsync($"{_cconfigServiceAddress}/{order.configGuid}");
+
+                if (!responseUser.IsSuccessStatusCode)
+                {
+
+                    return NotFound("User Guid is uncorrect");
+                }
+
+                if (!responseConfig.IsSuccessStatusCode)
+                {
+
+                    return NotFound("Config Guid is uncorrect");
+                }
+            }
+
             _context.Orders.Add(order);
             await _context.SaveChangesAsync();
 
@@ -85,7 +126,7 @@ namespace rentVPSmicroservices.microserviceOrders.Controllers
         }
 
         // DELETE: api/Orders/5
-        [HttpDelete("{id}")]
+        [HttpDelete("{id:Guid}")]
         public async Task<IActionResult> DeleteOrder(Guid id)
         {
             var order = await _context.Orders.FindAsync(id);
