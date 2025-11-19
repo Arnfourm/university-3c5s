@@ -1,6 +1,7 @@
 package jdbc_application.servlets;
 
 import jdbc_application.DAO.UserDAO;
+import jdbc_application.models.Configurations;
 import jdbc_application.models.Users;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -40,12 +41,34 @@ public class UserServlet extends HttpServlet {
         out.println("<body>");
         out.println("Все пользователи:");
 
-        out.println("<div>");
-        for (Users user : usersList)
+        if (usersList.isEmpty())
         {
-            out.println(user.GetId() + " " + user.GetName() + " " + user.GetSurname() + " " + user.GetEmail());
+            out.println("Нет ни одного пользователя");
+        } else {
+            out.println("<table>");
+            out.println("<thead>");
+            out.println("<tr>");
+            out.println("<th scope=\"col\"> Id пользователя </th>");
+            out.println("<th scope=\"col\"> Имя </th>");
+            out.println("<th scope=\"col\"> Фамилия </th>");
+            out.println("<th scope=\"col\"> Почта </th>");
+            out.println("</tr>");
+            out.println("</thead>");
+
+            out.println("<tbody>");
+            for (Users user : usersList)
+            {
+                out.println("<tr>");
+                out.println("<th scope=\"row\">" + user.GetId() + "</th>");
+                out.println("<td>" + user.GetName() + "</tc>");
+                out.println("<td>" + user.GetSurname() + "</tc>");
+                out.println("<td>" + user.GetEmail()                                       + "</tc>");
+                out.println("</tr>");
+            }
+            out.println("</tbody>");
+
+            out.println("</table>");
         }
-        out.println("</div>");
 
         out.println("</body>");
         out.println("</html>");

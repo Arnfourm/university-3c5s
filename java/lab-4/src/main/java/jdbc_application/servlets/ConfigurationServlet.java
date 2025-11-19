@@ -41,14 +41,35 @@ public class ConfigurationServlet extends HttpServlet {
         out.println("<body>");
         out.println("Все конфигурации:");
 
-        out.println("<div>");
-        out.println("Configurations count:" + configurationsList.size());
-        for (Configurations configuration : configurationsList)
+        if (configurationsList.isEmpty())
         {
-            out.println("тест");
-            out.println(configuration.GetId() + " " + configuration.GetCpuName() + " " + configuration.GetCpuGhz() + " " + configuration.GetDiskVolume());
+            out.println("Нет ни одной конфигурации");
+        } else {
+            out.println("<table>");
+            out.println("<thead>");
+            out.println("<tr>");
+            out.println("<th scope=\"col\"> Id конф </th>");
+            out.println("<th scope=\"col\"> Cpu название </th>");
+            out.println("<th scope=\"col\"> Cpu частота </th>");
+            out.println("<th scope=\"col\"> Дисковый объем </th>");
+            out.println("</tr>");
+            out.println("</thead>");
+
+            out.println("<tbody>");
+            for (Configurations configuration : configurationsList)
+            {
+                out.println("<tr>");
+                out.println("<th scope=\"row\">" + configuration.GetId() + "</th>");
+                out.println("<td>" + configuration.GetCpuName() + "</tc>");
+                out.println("<td>" + configuration.GetCpuGhz() + "</tc>");
+                out.println("<td>" + configuration.GetDiskVolume() + "</tc>");
+                out.println("</tr>");
+            }
+            out.println("</tbody>");
+
+            out.println("</table>");
         }
-        out.println("</div>");
+
 
         out.println("</body>");
         out.println("</html>");
