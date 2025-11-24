@@ -9,6 +9,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.RequestDispatcher;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -30,7 +31,8 @@ public class ConfigurationServlet extends HttpServlet {
     {
         List<Configurations> configurationsList = _configDAO.GetConfigurations();
 
-
-
+        request.setAttribute("configList", configurationsList);
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("/WEB-INF/pages/config.jsp");
+        requestDispatcher.forward(request, response);
     }
 }
