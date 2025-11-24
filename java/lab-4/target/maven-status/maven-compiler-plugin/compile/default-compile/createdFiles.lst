@@ -1,4 +1,5 @@
 jdbc_application/models/Configurations.class
+jdbc_application/servlets/workUserServlet.class
 jdbc_application/DAO/UserDAO.class
 jdbc_application/servlets/UserServlet.class
 jdbc_application/DAO/ConfigurationDAO.class

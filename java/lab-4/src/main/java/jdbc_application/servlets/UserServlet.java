@@ -1,7 +1,7 @@
 package jdbc_application.servlets;
 
+import jakarta.servlet.annotation.WebServlet;
 import jdbc_application.DAO.UserDAO;
-import jdbc_application.models.Configurations;
 import jdbc_application.models.Users;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -16,13 +16,13 @@ import java.util.List;
 
 public class UserServlet extends HttpServlet {
 
-    private UserDAO _configDAO;
+    private UserDAO _userDAO;
 
     @Override
     public void init() throws ServletException
     {
         ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
-        _configDAO = context.getBean("UserDAO", UserDAO.class);
+        _userDAO = context.getBean("UserDAO", UserDAO.class);
     }
 
     @Override
@@ -30,7 +30,7 @@ public class UserServlet extends HttpServlet {
     {
         response.setContentType("text/html");
 
-        List<Users> usersList = _configDAO.GetUsers();
+        List<Users> usersList = _userDAO.GetUsers();
 
         PrintWriter out = response.getWriter();
         out.println("<html>");
@@ -70,6 +70,16 @@ public class UserServlet extends HttpServlet {
             out.println("</table>");
         }
 
+        out.println("Создать нового пользователя: ");
+        out.println("<form action=\"workuser\" method=Post>");
+        out.println("<label for=\"name\">Name:</label>");
+        out.println("<input type=\"text\" id=\"name\" name=\"name\">");
+        out.println("<label for=\"surname\">Surname:</label>");
+        out.println("<input type=\"text\" id=\"surname\" name=\"surname\">");
+        out.println("<label for=\"email\">Email:</label>\n") ;
+        out.println("<input type=\"email\" id=\"email\" name=\"email\"><br><br>\n");
+        out.println("<input type=\"submit\" value=\"Submit\">");
+        out.println("</form>");
         out.println("</body>");
         out.println("</html>");
     }

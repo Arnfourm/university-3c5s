@@ -6,14 +6,10 @@
 
     <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close">
         <property name="driverClassName" value="org.postgresql.Driver"/>
-        <property name="url" value="jdbc:postgresql://localhost/postgres"/>
+        <property name="url" value="jdbc:postgresql://localhost:5432/postgres"/>
         <property name="username" value="postgres"/>
         <property name="password" value="postgres"/>
-        <property name="initialSize" value="5"/>
-        <property name="maxTotal" value="20"/>
     </bean>
-
-<!--    <bean id="DbConfiguration" class="jdbc_application.DAO.DbConfiguration"/>-->
 
     <bean id="ConfigurationDAO" class="jdbc_application.DAO.ConfigurationDAO">
         <constructor-arg ref="dataSource"/>

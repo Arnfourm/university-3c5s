@@ -21,4 +21,13 @@
         <servlet-name>User</servlet-name>
         <url-pattern>/user</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>workUserServlet</servlet-name>
+        <servlet-class>jdbc_application.servlets.workUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>workUserServlet</servlet-name>
+        <url-pattern>/workuser</url-pattern>
+    </servlet-mapping>
 </web-app>
