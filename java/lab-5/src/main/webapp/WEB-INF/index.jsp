@@ -10,10 +10,10 @@
 <body>
     <ul>
         <li>
-            <a href="configuration"> Конфигурации </a>
+            <a href="configs"> Конфигурации </a>
         </li>
         <li>
-            <a href="user"> Пользователи </a>
+            <a href="users"> Пользователи </a>
         </li>
     </ul>
 </body>

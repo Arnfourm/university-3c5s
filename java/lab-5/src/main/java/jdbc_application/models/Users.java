@@ -6,7 +6,14 @@ public class Users {
     private String surname;
     private String email;
 
-    public Users(int id, String name, String surname, String email){
+    public Users(String name, String surname, String email)
+    {
+        this.name = name;
+        this.surname = surname;
+        this.email = email;
+    }
+    public Users(int id, String name, String surname, String email)
+    {
         this.id = id;
         this.name = name;
         this.surname = surname;

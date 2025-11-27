@@ -1,9 +1,8 @@
 jdbc_application/models/Configurations.class
-jdbc_application/servlets/workUserServlet.class
 jdbc_application/DAO/UserDAO.class
-jdbc_application/servlets/UserServlet.class
+jdbc_application/controllers/UserController.class
+jdbc_application/controllers/ConfigurationController.class
 jdbc_application/DAO/ConfigurationDAO.class
 jdbc_application/DAO/OrderDAO.class
 jdbc_application/models/Users.class
 jdbc_application/models/Orders.class
-jdbc_application/servlets/ConfigurationServlet.class

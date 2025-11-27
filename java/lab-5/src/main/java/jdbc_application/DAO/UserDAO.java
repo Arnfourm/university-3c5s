@@ -94,9 +94,8 @@ public class UserDAO {
         return newUserId;
     }
 
-    public boolean DeleteUser(int id){
+    public void DeleteUser(int id){
         String sql = "DELETE FROM USERS WHERE id = ?";
-        boolean resultFlag = true;
 
         try (Connection conn = _dbContext.getConnection()){
             PreparedStatement preparedStatement = conn.prepareStatement(sql);
@@ -106,15 +105,30 @@ public class UserDAO {
                 preparedStatement.executeUpdate();
             } catch (Exception e) {
                 e.printStackTrace();
-                resultFlag = false;
             }
 
         } catch (Exception e) {
             e.printStackTrace();
-            resultFlag = false;
         }
+    }
 
-        return resultFlag;
+    public void DeleteUserByEmail(String email)
+    {
+        String sql = "DELETE FROM users WHERE email = ?";
+
+        try (Connection conn = _dbContext.getConnection()){
+            PreparedStatement preparedStatement = conn.prepareStatement(sql);
+            preparedStatement.setString(1, email);
+
+            try {
+                preparedStatement.executeUpdate();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public boolean UpdateUser(int id, String name, String surname, String email){

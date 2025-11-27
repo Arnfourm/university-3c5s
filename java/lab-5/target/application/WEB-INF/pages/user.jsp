@@ -52,7 +52,7 @@
     <br><br><br>
 
     <p> Создать нового пользователя: </p>
-    <form action="workuser" method=Post>
+    <form action="workuser" method="post">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name"/>
         <br><br>
@@ -67,6 +67,16 @@
         <br><br>
 
         <input type="submit" value="Submit">
+    </form>
+
+    <br><br><br>
+    <form action="workuserdelete" method="post">
+        <label for="userid">Userid:</label>
+        <input type="number" id="userid" name="userid"/>
+
+        <br><br>
+
+        <input type="submit" value="Submit"/>
     </form>
 </body>
 </html>

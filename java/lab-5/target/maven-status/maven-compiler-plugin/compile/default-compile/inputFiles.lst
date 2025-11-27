@@ -1,7 +1,8 @@
 /home/luver/university-3c5s/java/lab-5/src/main/java/jdbc_application/DAO/ConfigurationDAO.java
-/home/luver/university-3c5s/java/lab-5/src/main/java/jdbc_application/DAO/DbConfiguration.java
 /home/luver/university-3c5s/java/lab-5/src/main/java/jdbc_application/DAO/OrderDAO.java
 /home/luver/university-3c5s/java/lab-5/src/main/java/jdbc_application/DAO/UserDAO.java
+/home/luver/university-3c5s/java/lab-5/src/main/java/jdbc_application/controllers/ConfigurationController.java
+/home/luver/university-3c5s/java/lab-5/src/main/java/jdbc_application/controllers/UserController.java
 /home/luver/university-3c5s/java/lab-5/src/main/java/jdbc_application/models/Configurations.java
 /home/luver/university-3c5s/java/lab-5/src/main/java/jdbc_application/models/Orders.java
 /home/luver/university-3c5s/java/lab-5/src/main/java/jdbc_application/models/Users.java

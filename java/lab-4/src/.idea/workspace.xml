@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="67008c79-6f2d-46bc-b3ef-4af0ad665ada" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../lab-5/src/main/webapp/WEB-INF/pages/user.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../application.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/jdbc_application/DAO/DbConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab-5/src/main/java/jdbc_application/DAO/DbConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab-5/src/main/java/jdbc_application/servlets/ConfigurationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab-5/src/main/java/jdbc_application/servlets/ConfigurationServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab-5/src/main/java/jdbc_application/servlets/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab-5/src/main/java/jdbc_application/servlets/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab-5/src/main/java/jdbc_application/servlets/workUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab-5/src/main/java/jdbc_application/servlets/workUserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab-5/src/main/webapp/WEB-INF/pages/config.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab-5/src/main/webapp/WEB-INF/pages/config.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab-5/target/application.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab-5/target/application.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab-5/target/application/WEB-INF/classes/jdbc_application/servlets/ConfigurationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab-5/target/application/WEB-INF/classes/jdbc_application/servlets/ConfigurationServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab-5/target/application/WEB-INF/classes/jdbc_application/servlets/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab-5/target/application/WEB-INF/classes/jdbc_application/servlets/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab-5/target/application/WEB-INF/classes/jdbc_application/servlets/workUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab-5/target/application/WEB-INF/classes/jdbc_application/servlets/workUserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab-5/target/classes/jdbc_application/servlets/ConfigurationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab-5/target/classes/jdbc_application/servlets/ConfigurationServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab-5/target/classes/jdbc_application/servlets/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab-5/target/classes/jdbc_application/servlets/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab-5/target/classes/jdbc_application/servlets/workUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab-5/target/classes/jdbc_application/servlets/workUserServlet.class" afterDir="false" />
-    </list>
+    <list default="true" id="67008c79-6f2d-46bc-b3ef-4af0ad665ada" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,9 +13,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="35wcI73GMHehORs6CS4Xkfuuc0u" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,7 +28,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "java-lab/lab-5",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/luver/university-3c5s/java/lab-4/src"
+    "last_opened_file_path": "/home/luver/university-3c5s/java/lab-5"
   }
 }]]></component>
   <component name="TaskManager">
