@@ -6,6 +6,10 @@ public class Users {
     private String surname;
     private String email;
 
+    public Users()
+    {
+
+    }
     public Users(String name, String surname, String email)
     {
         this.name = name;
@@ -21,27 +25,27 @@ public class Users {
     }
 
 //  Getters
-    public int GetId() {
+    public int getId() {
         return id;
     }
-    public String GetName(){
+    public String getName(){
         return name;
     }
-    public String GetSurname(){
+    public String getSurname(){
         return surname;
     }
-    public String GetEmail(){
+    public String getEmail(){
         return email;
     }
 
 //  Setters
-    public void SetName(String name){
+    public void setName(String name){
         this.name = name;
     }
-    public void SetSurname(String surname){
+    public void setSurname(String surname){
         this.surname = surname;
     }
-    public void SetEmail(String email){
+    public void setEmail(String email){
         this.email = email;
     }
 }

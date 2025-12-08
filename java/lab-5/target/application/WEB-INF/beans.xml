@@ -11,15 +11,15 @@
         <property name="password" value="postgres"/>
     </bean>
 
-    <bean id="ConfigurationDAO" class="jdbc_application.controllers.ConfigurationController">
+    <bean id="ConfigurationDAO" class="jdbc_application.DAO.ConfigurationDAO">
         <constructor-arg ref="dataSource"/>
     </bean>
 
-    <bean id="UserDAO" class="jdbc_application.controllers.UserController">
+    <bean id="UserDAO" class="jdbc_application.DAO.UserDAO">
         <constructor-arg ref="dataSource"/>
     </bean>
 
-<!--    <bean id="OrderDAO" class="jdbc_application.DAO.OrderDAO">-->
-<!--        <constructor-arg ref="dataSource"/>-->
-<!--    </bean>-->
+   <bean id="OrderDAO" class="jdbc_application.DAO.OrderDAO">
+        <constructor-arg ref="dataSource"/>
+   </bean>
 </beans>

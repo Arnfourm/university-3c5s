@@ -35,10 +35,10 @@
                 for (Configurations configuration : configurationsList) {
             %>
                 <tr>
-                    <th scope="row"> <%= configuration.GetId() %> </th>
-                    <td> <%= configuration.GetCpuName() %> </td>
-                    <td> <%= configuration.GetCpuGhz() %> </td>
-                    <td> <%= configuration.GetDiskVolume() %> </td>
+                    <th scope="row"> <%= configuration.getId() %> </th>
+                    <td> <%= configuration.getCpuName() %> </td>
+                    <td> <%= configuration.getCpuGhz() %> </td>
+                    <td> <%= configuration.getDiskVolume() %> </td>
                 </tr>
             <%
             }
@@ -48,6 +48,38 @@
     <%
       }
     %>
+
+    <p> Создать новую конфигурацию: </p>
+    <form action="configs" method="post">
+        <label for="cpuName">Cpuname:</label>
+        <input type="text" id="cpuName" name="cpuName"/>
+        <br><br>
+
+        <label for="cpuGhz">Cpu ghz:</label>
+        <input type="number" step="0.01" id="cpuGhz" name="cpuGhz"/>
+        <br><br>
+
+        <label for="ramVolume">Ram volume:</label>
+        <input type="number" id="ramVolume" name="ramVolume">
+        <br><br>
+
+        <label for="diskVolume">Disk volume:</label>
+        <input type="number" id="diskVolume" name="diskVolume">
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <br><br><br>
+
+    <form action="configs/delete" method="post">
+        <label for="configid">Config id:</label>
+        <input type="number" id="configid" name="configid"/>
+
+        <br><br>
+
+        <input type="submit" value="Submit"/>
+    </form>
 
 </body>
 </html>

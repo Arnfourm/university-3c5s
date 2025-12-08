@@ -28,8 +28,9 @@
     </servlet-mapping>
     
     <welcome-file-list>
-        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>/WEB-INF/pages/index.jsp</welcome-file>
     </welcome-file-list>
+
 <!--        <servlet-name>Configuration</servlet-name>-->
 <!--        <servlet-class>jdbc_application.servlets.ConfigurationServlet</servlet-class>-->
 <!--    </servlet>-->

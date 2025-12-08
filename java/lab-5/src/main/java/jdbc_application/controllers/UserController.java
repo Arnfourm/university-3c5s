@@ -29,18 +29,18 @@ public class UserController {
     }
 
     @PostMapping("/users")
-    public String CreateUser(@ModelAttribute Users user, Model model)
+    public String CreateUser(@ModelAttribute Users user)
     {
-        _userDAO.CreateUser(user.GetName(), user.GetSurname(), user.GetEmail());
+        _userDAO.CreateUser(user.getName(), user.getSurname(), user.getEmail());
 
-        return "user";
+        return "redirect:/users";
     }
 
-    @DeleteMapping("/users")
-    public String DeleteUser(@ModelAttribute int userid, Model model)
+    @PostMapping("/users/delete")
+    public String DeleteUser(@RequestParam("userid") int userid)
     {
         _userDAO.DeleteUser(userid);
 
-        return "user";
+        return "redirect:/users";
     }
 }

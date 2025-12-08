@@ -7,6 +7,11 @@ public class Configurations {
     private int ram_volume;
     private int disk_volume;
 
+    public Configurations()
+    {
+
+    }
+
     public Configurations(int id, String cpu_name, float cpu_ghz, int ram_volume, int disk_volume){
         this.id = id;
         this.cpu_name = cpu_name;
@@ -16,33 +21,33 @@ public class Configurations {
     }
 
 //  Getters
-    public int GetId(){
+    public int getId(){
         return id;
     }
-    public String GetCpuName(){
+    public String getCpuName(){
         return cpu_name;
     }
-    public float GetCpuGhz(){
+    public float getCpuGhz(){
         return cpu_ghz;
     }
-    public int GetRamVolume(){
+    public int getRamVolume(){
         return ram_volume;
     }
-    public int GetDiskVolume(){
+    public int getDiskVolume(){
         return disk_volume;
     }
 
 //  Setters
-    public void SetCpuName(String cpu_name){
+    public void setCpuName(String cpu_name){
         this.cpu_name = cpu_name;
     }
-    public void SetCpuGhz(float cpu_ghz){
+    public void setCpuGhz(float cpu_ghz){
         this.cpu_ghz = cpu_ghz;
     }
-    public void SetRamVolume(int ram_volume){
+    public void setRamVolume(int ram_volume){
         this.ram_volume = ram_volume;
     }
-    public void SetDiskVolume(int disk_volume){
+    public void setDiskVolume(int disk_volume){
         this.disk_volume = disk_volume;
     }
 }

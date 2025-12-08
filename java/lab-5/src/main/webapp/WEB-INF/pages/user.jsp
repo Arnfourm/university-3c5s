@@ -35,10 +35,10 @@
                 for (Users user : usersList) {
             %>
                 <tr>
-                    <th scope="row"> <%= user.GetId() %> </th>
-                    <td> <%= user.GetName() %> </td>
-                    <td> <%= user.GetSurname() %> </td>
-                    <td> <%= user.GetEmail() %> </td>
+                    <th scope="row"> <%= user.getId() %> </th>
+                    <td> <%= user.getName() %> </td>
+                    <td> <%= user.getSurname() %> </td>
+                    <td> <%= user.getEmail() %> </td>
                 </tr>
             <%
             }
@@ -52,7 +52,7 @@
     <br><br><br>
 
     <p> Создать нового пользователя: </p>
-    <form action="workuser" method="post">
+    <form action="users" method="post">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name"/>
         <br><br>
@@ -70,7 +70,8 @@
     </form>
 
     <br><br><br>
-    <form action="workuserdelete" method="post">
+
+    <form action="users/delete" method="post">
         <label for="userid">Userid:</label>
         <input type="number" id="userid" name="userid"/>
 

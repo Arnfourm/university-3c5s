@@ -144,17 +144,17 @@ public class UserDAO {
             if (name != null){
                 preparedStatement.setString(1, name);
             } else {
-                preparedStatement.setString(1, currentUser.GetName());
+                preparedStatement.setString(1, currentUser.getName());
             }
             if (surname != null){
                 preparedStatement.setString(2, surname);
             } else {
-                preparedStatement.setString(2, currentUser.GetSurname());
+                preparedStatement.setString(2, currentUser.getSurname());
             }
             if (email != null){
                 preparedStatement.setString(3, email);
             } else {
-                preparedStatement.setString(3, currentUser.GetEmail());
+                preparedStatement.setString(3, currentUser.getEmail());
             }
             preparedStatement.setInt(4, id);
 
