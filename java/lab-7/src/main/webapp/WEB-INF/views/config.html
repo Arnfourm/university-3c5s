@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Config page</title>
+</head>
+<body>
+    <p> Все конфигурации </p>
+
+    <div th:if="${configList == null or #lists.isEmpty(configList)}">
+        <p> Нет ни одной конфигурации </p>
+    </div>
+
+    <div th:if="${configList != null or not #lists.isEmpty(configList)}">
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col"> Id конф </th>
+                    <th scope="col"> Cpu название </th>
+                    <th scope="col"> Cpu частота </th>
+                    <th scope="col"> Дисковый объем </th>
+                    <th scope="col"> Цена </th>
+                <tr>
+            </thead>
+
+            <tbody>
+                <tr th:each="configuration : ${configList}">
+                    <th scope="row" th:text="${configuration.getId()}"> </th>
+                    <td th:text="${configuration.getCpuName()}"> </td>
+                    <td th:text="${configuration.getCpuGhz()}"> </td>
+                    <td th:text="${configuration.getDiskVolume()}">  </td>
+                    <td th:text="${configuration.getPrice()}"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br><br><br>
+
+    <div th:if="${errorMessage != null">
+        <p style="color:red">${errorMessage}</p>
+    </div>
+
+    <p> Создать новую конфигурацию: </p>
+    <form th:action="@{/configs}" method="post" th:object="${config}">
+        <label for="cpuName">Cpu name:</label>
+        <input type="text" th:field="*{cpuName}" id="cpuName" />
+        <br>
+
+        <label for="cpuGhz">Cpu ghz:</label>
+        <input type="number" step="0.01" th:field="*{cpuGhz}" id="cpuGhz" />
+        <br>
+
+        <label for="ramVolume">Ram volume:</label>
+        <input type="number" th:field="*{ramVolume}" id="ramVolume" />
+        <br>
+
+        <label for="diskVolume">Disk volume:</label>
+        <input type="number" th:field="*{diskVolume}" id="diskVolume" />
+        <br>
+
+        <label for="price">Price:</label>
+        <input type="number" step="0.01" th:field="*{price}" id="price" />
+        <br>
+
+        <input type="submit" value="Send" />
+    </form>
+
+    <br><br><br>
+
+    <form th:action="@{/configs/delete}" method="post">
+        <label for="configId">Config id:</label>
+        <input type="number" id="configId" name="configid" th:value="${configid}"/>
+
+        <br>
+
+        <input type="submit" value="Submit"/>
+    </form>
+
+</body>
+</html>

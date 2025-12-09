@@ -1,0 +1,290 @@
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 5900:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 16:37:30.487261 2025] [mpm_winnt:notice] [pid 5900:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 16:37:30.487261 2025] [core:notice] [pid 5900:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 16:37:30.489287 2025] [mpm_winnt:notice] [pid 5900:tid 404] AH00418: Parent: Created child process 9600
+[Mon Dec 01 16:37:30.729956 2025] [mpm_winnt:notice] [pid 9600:tid 428] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 16:38:21.410786 2025] [mpm_winnt:notice] [pid 5900:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 01 16:38:23.412931 2025] [mpm_winnt:notice] [pid 9600:tid 428] AH00364: Child: All worker threads have exited.
+[Mon Dec 01 16:38:23.430472 2025] [mpm_winnt:notice] [pid 5900:tid 404] AH00430: Parent: Child process 9600 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 4660:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 16:40:49.162488 2025] [mpm_winnt:notice] [pid 4660:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 16:40:49.162488 2025] [core:notice] [pid 4660:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 16:40:49.164484 2025] [mpm_winnt:notice] [pid 4660:tid 404] AH00418: Parent: Created child process 11112
+[Mon Dec 01 16:40:49.538646 2025] [mpm_winnt:notice] [pid 11112:tid 420] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 16:41:31.609310 2025] [mpm_winnt:notice] [pid 4660:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 01 16:41:33.610346 2025] [mpm_winnt:notice] [pid 11112:tid 420] AH00364: Child: All worker threads have exited.
+[Mon Dec 01 16:41:33.624362 2025] [mpm_winnt:notice] [pid 4660:tid 404] AH00430: Parent: Child process 11112 exited successfully.
+[Mon Dec 01 16:45:50.282159 2025] [mpm_winnt:notice] [pid 11860:tid 432] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 16:45:50.283159 2025] [mpm_winnt:notice] [pid 11860:tid 432] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 16:45:50.283159 2025] [core:notice] [pid 11860:tid 432] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 16:45:50.285170 2025] [mpm_winnt:notice] [pid 11860:tid 432] AH00418: Parent: Created child process 6208
+[Mon Dec 01 16:45:50.567090 2025] [mpm_winnt:notice] [pid 6208:tid 452] AH00354: Child: Starting 150 worker threads.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 11860:tid 432] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 17:25:50.771949 2025] [mpm_winnt:notice] [pid 11860:tid 432] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 17:25:50.771949 2025] [mpm_winnt:notice] [pid 11860:tid 432] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 17:25:50.771949 2025] [core:notice] [pid 11860:tid 432] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 17:25:50.772949 2025] [mpm_winnt:notice] [pid 11860:tid 432] AH00418: Parent: Created child process 11068
+[Mon Dec 01 17:25:51.735655 2025] [mpm_winnt:notice] [pid 11068:tid 424] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 17:25:58.269057 2025] [mpm_winnt:notice] [pid 6208:tid 452] AH00364: Child: All worker threads have exited.
+[Mon Dec 01 17:27:54.378566 2025] [mpm_winnt:notice] [pid 11860:tid 432] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 01 17:28:17.501369 2025] [mpm_winnt:notice] [pid 11068:tid 424] AH00364: Child: All worker threads have exited.
+[Mon Dec 01 17:28:17.515394 2025] [mpm_winnt:notice] [pid 11860:tid 432] AH00430: Parent: Child process 11068 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 19316:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 17:29:21.647492 2025] [mpm_winnt:notice] [pid 19316:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 17:29:21.647492 2025] [core:notice] [pid 19316:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 17:29:21.649468 2025] [mpm_winnt:notice] [pid 19316:tid 404] AH00418: Parent: Created child process 14540
+[Mon Dec 01 17:29:21.998693 2025] [mpm_winnt:notice] [pid 14540:tid 424] AH00354: Child: Starting 150 worker threads.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 19316:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 17:30:44.295105 2025] [mpm_winnt:notice] [pid 19316:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 17:30:44.295105 2025] [mpm_winnt:notice] [pid 19316:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 17:30:44.295105 2025] [core:notice] [pid 19316:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 17:30:44.296082 2025] [mpm_winnt:notice] [pid 19316:tid 404] AH00418: Parent: Created child process 15064
+[Mon Dec 01 17:30:45.262434 2025] [mpm_winnt:notice] [pid 15064:tid 432] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 17:30:46.264466 2025] [mpm_winnt:notice] [pid 14540:tid 424] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 19316:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 17:34:09.496471 2025] [mpm_winnt:notice] [pid 19316:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 17:34:09.496471 2025] [mpm_winnt:notice] [pid 19316:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 17:34:09.496471 2025] [core:notice] [pid 19316:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 17:34:09.497519 2025] [mpm_winnt:notice] [pid 19316:tid 404] AH00418: Parent: Created child process 18940
+[Mon Dec 01 17:34:10.462427 2025] [mpm_winnt:notice] [pid 18940:tid 424] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 17:34:11.463337 2025] [mpm_winnt:notice] [pid 15064:tid 432] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 19316:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 17:34:42.459042 2025] [mpm_winnt:notice] [pid 19316:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 17:34:42.459042 2025] [mpm_winnt:notice] [pid 19316:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 17:34:42.459042 2025] [core:notice] [pid 19316:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 17:34:42.460073 2025] [mpm_winnt:notice] [pid 19316:tid 404] AH00418: Parent: Created child process 7544
+[Mon Dec 01 17:34:43.428136 2025] [mpm_winnt:notice] [pid 7544:tid 468] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 17:35:14.486284 2025] [mpm_winnt:notice] [pid 18940:tid 424] AH00362: Child: Waiting 30 more seconds for 1 worker threads to finish.
+[Mon Dec 01 17:35:15.389508 2025] [mpm_winnt:notice] [pid 18940:tid 424] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 19316:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 17:37:45.598394 2025] [mpm_winnt:notice] [pid 19316:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 17:37:45.598394 2025] [mpm_winnt:notice] [pid 19316:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 17:37:45.598394 2025] [core:notice] [pid 19316:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 17:37:45.599955 2025] [mpm_winnt:notice] [pid 19316:tid 404] AH00418: Parent: Created child process 1252
+[Mon Dec 01 17:37:46.567285 2025] [mpm_winnt:notice] [pid 1252:tid 424] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 17:37:58.738302 2025] [mpm_winnt:notice] [pid 7544:tid 468] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+Failed to restart the 'Apache2.4' service.
+t:notice] [pid 19316:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+AH00451: no listening sockets available, shutting down
+[Mon Dec 01 17:40:32.318001 2025] [:emerg] [pid 19316:tid 404] AH00019: Unable to open logs, exiting
+[Mon Dec 01 17:40:35.516756 2025] [mpm_winnt:notice] [pid 1252:tid 424] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ore:warn] [pid 17160:tid 404] AH00098: pid file D:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Dec 01 17:43:58.676789 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 17:43:58.676789 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 17:43:58.676789 2025] [core:notice] [pid 17160:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 17:43:58.680820 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00418: Parent: Created child process 14716
+[Mon Dec 01 17:43:59.080948 2025] [mpm_winnt:notice] [pid 14716:tid 420] AH00354: Child: Starting 150 worker threads.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 17160:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 17:44:14.462709 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 17:44:14.462709 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 17:44:14.462709 2025] [core:notice] [pid 17160:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 17:44:14.464274 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00418: Parent: Created child process 17820
+[Mon Dec 01 17:44:15.422380 2025] [mpm_winnt:notice] [pid 17820:tid 436] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 17:44:16.422952 2025] [mpm_winnt:notice] [pid 14716:tid 420] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 17160:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 17:46:23.927134 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 17:46:23.927134 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 17:46:23.927134 2025] [core:notice] [pid 17160:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 17:46:23.931140 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00418: Parent: Created child process 8320
+[Mon Dec 01 17:46:24.885519 2025] [mpm_winnt:notice] [pid 8320:tid 420] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 17:46:25.886182 2025] [mpm_winnt:notice] [pid 17820:tid 436] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 17160:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 17:46:38.046682 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 17:46:38.046682 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 17:46:38.046682 2025] [core:notice] [pid 17160:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 17:46:38.047683 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00418: Parent: Created child process 18684
+[Mon Dec 01 17:46:39.014853 2025] [mpm_winnt:notice] [pid 18684:tid 420] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 17:46:40.015477 2025] [mpm_winnt:notice] [pid 8320:tid 420] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 17160:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 17:47:13.838893 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 17:47:13.838893 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 17:47:13.838893 2025] [core:notice] [pid 17160:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 17:47:13.843385 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00418: Parent: Created child process 7504
+[Mon Dec 01 17:47:14.793972 2025] [mpm_winnt:notice] [pid 7504:tid 420] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 17:47:21.826866 2025] [mpm_winnt:notice] [pid 18684:tid 420] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 17160:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 17:48:04.144754 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 17:48:04.144754 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 17:48:04.144754 2025] [core:notice] [pid 17160:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 17:48:04.145754 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00418: Parent: Created child process 1588
+[Mon Dec 01 17:48:05.106958 2025] [mpm_winnt:notice] [pid 1588:tid 420] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 17:48:10.033707 2025] [mpm_winnt:notice] [pid 7504:tid 420] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 17160:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 17:51:36.556023 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 17:51:36.556023 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 17:51:36.556023 2025] [core:notice] [pid 17160:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 17:51:36.557048 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00418: Parent: Created child process 7752
+[Mon Dec 01 17:51:37.514940 2025] [mpm_winnt:notice] [pid 7752:tid 440] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 17:51:38.515185 2025] [mpm_winnt:notice] [pid 1588:tid 420] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 17160:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 18:02:49.409573 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 18:02:49.409573 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 18:02:49.409573 2025] [core:notice] [pid 17160:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 18:02:49.410545 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00418: Parent: Created child process 5808
+[Mon Dec 01 18:02:50.373317 2025] [mpm_winnt:notice] [pid 5808:tid 420] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 18:02:51.373993 2025] [mpm_winnt:notice] [pid 7752:tid 440] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 17160:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 18:03:18.725755 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 18:03:18.725755 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 18:03:18.725755 2025] [core:notice] [pid 17160:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 18:03:18.730752 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00418: Parent: Created child process 12388
+[Mon Dec 01 18:03:19.688611 2025] [mpm_winnt:notice] [pid 12388:tid 420] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 18:03:50.753415 2025] [mpm_winnt:notice] [pid 5808:tid 420] AH00362: Child: Waiting 30 more seconds for 1 worker threads to finish.
+[Mon Dec 01 18:04:01.919435 2025] [mpm_winnt:notice] [pid 5808:tid 420] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 17160:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 18:04:42.232794 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 18:04:42.232794 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 18:04:42.232794 2025] [core:notice] [pid 17160:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 18:04:42.236795 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00418: Parent: Created child process 11652
+[Mon Dec 01 18:04:43.185728 2025] [mpm_winnt:notice] [pid 11652:tid 420] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 18:04:47.108447 2025] [mpm_winnt:notice] [pid 12388:tid 420] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 17160:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 18:05:15.791436 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 18:05:15.791436 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 18:05:15.791436 2025] [core:notice] [pid 17160:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 18:05:15.792448 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00418: Parent: Created child process 17232
+[Mon Dec 01 18:05:16.751360 2025] [mpm_winnt:notice] [pid 17232:tid 420] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 18:05:47.822057 2025] [mpm_winnt:notice] [pid 11652:tid 420] AH00362: Child: Waiting 30 more seconds for 1 worker threads to finish.
+[Mon Dec 01 18:06:03.605068 2025] [mpm_winnt:notice] [pid 11652:tid 420] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 17160:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 18:11:10.793407 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 18:11:10.793407 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 18:11:10.793407 2025] [core:notice] [pid 17160:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 18:11:10.794351 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00418: Parent: Created child process 8680
+[Mon Dec 01 18:11:11.756751 2025] [mpm_winnt:notice] [pid 8680:tid 420] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 18:11:12.757905 2025] [mpm_winnt:notice] [pid 17232:tid 420] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 17160:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 18:13:00.823632 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 18:13:00.823632 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 18:13:00.823632 2025] [core:notice] [pid 17160:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 18:13:00.825657 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00418: Parent: Created child process 18760
+[Mon Dec 01 18:13:01.781831 2025] [mpm_winnt:notice] [pid 18760:tid 420] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 18:13:02.782610 2025] [mpm_winnt:notice] [pid 8680:tid 420] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 17160:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 18:19:06.002173 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 18:19:06.002173 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 18:19:06.002173 2025] [core:notice] [pid 17160:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 18:19:06.003164 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00418: Parent: Created child process 13700
+[Mon Dec 01 18:19:06.960738 2025] [mpm_winnt:notice] [pid 13700:tid 440] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 18:19:07.961751 2025] [mpm_winnt:notice] [pid 18760:tid 420] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 17160:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 18:19:36.718771 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 18:19:36.718771 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 18:19:36.718771 2025] [core:notice] [pid 17160:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 18:19:36.720795 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00418: Parent: Created child process 872
+[Mon Dec 01 18:19:37.675131 2025] [mpm_winnt:notice] [pid 872:tid 420] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 18:20:08.834467 2025] [mpm_winnt:notice] [pid 13700:tid 440] AH00362: Child: Waiting 30 more seconds for 1 worker threads to finish.
+[Mon Dec 01 18:20:10.141471 2025] [mpm_winnt:notice] [pid 13700:tid 440] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 17160:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 18:21:28.936925 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 18:21:28.936925 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 18:21:28.936925 2025] [core:notice] [pid 17160:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 18:21:28.937901 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00418: Parent: Created child process 17312
+[Mon Dec 01 18:21:29.900089 2025] [mpm_winnt:notice] [pid 17312:tid 448] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 18:21:30.900758 2025] [mpm_winnt:notice] [pid 872:tid 420] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 17160:tid 404] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 18:40:39.513540 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 18:40:39.513540 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 18:40:39.513540 2025] [core:notice] [pid 17160:tid 404] AH00094: Command line: 'D:\\Apache24\\bin\\httpd.exe -d D:/Apache24'
+[Mon Dec 01 18:40:39.516582 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00418: Parent: Created child process 8480
+[Mon Dec 01 18:40:40.472647 2025] [mpm_winnt:notice] [pid 8480:tid 420] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 18:40:41.474268 2025] [mpm_winnt:notice] [pid 17312:tid 448] AH00364: Child: All worker threads have exited.
+[Mon Dec 01 18:44:23.578828 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 01 18:44:25.581992 2025] [mpm_winnt:notice] [pid 8480:tid 420] AH00364: Child: All worker threads have exited.
+[Mon Dec 01 18:44:25.600007 2025] [mpm_winnt:notice] [pid 17160:tid 404] AH00430: Parent: Child process 8480 exited successfully.
+[Mon Dec 01 21:30:36.951041 2025] [mpm_winnt:notice] [pid 15420:tid 416] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 21:30:36.952041 2025] [mpm_winnt:notice] [pid 15420:tid 416] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 21:30:36.952041 2025] [core:notice] [pid 15420:tid 416] AH00094: Command line: 'D:\\university-3c5s\\network\\lab-6\\Apache24\\bin\\httpd.exe -d D:/university-3c5s/network/lab-6/Apache24'
+[Mon Dec 01 21:30:36.954041 2025] [mpm_winnt:notice] [pid 15420:tid 416] AH00418: Parent: Created child process 9488
+[Mon Dec 01 21:30:37.301576 2025] [mpm_winnt:notice] [pid 9488:tid 420] AH00354: Child: Starting 150 worker threads.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 15420:tid 416] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 21:32:14.993201 2025] [mpm_winnt:notice] [pid 15420:tid 416] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 21:32:14.993201 2025] [mpm_winnt:notice] [pid 15420:tid 416] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 21:32:14.993201 2025] [core:notice] [pid 15420:tid 416] AH00094: Command line: 'D:\\university-3c5s\\network\\lab-6\\Apache24\\bin\\httpd.exe -d D:/university-3c5s/network/lab-6/Apache24'
+[Mon Dec 01 21:32:14.996201 2025] [mpm_winnt:notice] [pid 15420:tid 416] AH00418: Parent: Created child process 18552
+[Mon Dec 01 21:32:15.955763 2025] [mpm_winnt:notice] [pid 18552:tid 420] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 21:32:16.956116 2025] [mpm_winnt:notice] [pid 9488:tid 420] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 15420:tid 416] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 21:33:28.305830 2025] [mpm_winnt:notice] [pid 15420:tid 416] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 21:33:28.305830 2025] [mpm_winnt:notice] [pid 15420:tid 416] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 21:33:28.305830 2025] [core:notice] [pid 15420:tid 416] AH00094: Command line: 'D:\\university-3c5s\\network\\lab-6\\Apache24\\bin\\httpd.exe -d D:/university-3c5s/network/lab-6/Apache24'
+[Mon Dec 01 21:33:28.307786 2025] [mpm_winnt:notice] [pid 15420:tid 416] AH00418: Parent: Created child process 3956
+[Mon Dec 01 21:33:29.269449 2025] [mpm_winnt:notice] [pid 3956:tid 420] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 21:33:30.269666 2025] [mpm_winnt:notice] [pid 18552:tid 420] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 15420:tid 416] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 21:36:48.058631 2025] [mpm_winnt:notice] [pid 15420:tid 416] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 21:36:48.058631 2025] [mpm_winnt:notice] [pid 15420:tid 416] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 21:36:48.058631 2025] [core:notice] [pid 15420:tid 416] AH00094: Command line: 'D:\\university-3c5s\\network\\lab-6\\Apache24\\bin\\httpd.exe -d D:/university-3c5s/network/lab-6/Apache24'
+[Mon Dec 01 21:36:48.059604 2025] [mpm_winnt:notice] [pid 15420:tid 416] AH00418: Parent: Created child process 18640
+[Mon Dec 01 21:36:49.027950 2025] [mpm_winnt:notice] [pid 18640:tid 420] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 21:36:50.029706 2025] [mpm_winnt:notice] [pid 3956:tid 420] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 15420:tid 416] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 01 21:40:44.976519 2025] [mpm_winnt:notice] [pid 15420:tid 416] AH00455: Apache/2.4.65 (Win64) configured -- resuming normal operations
+[Mon Dec 01 21:40:44.977449 2025] [mpm_winnt:notice] [pid 15420:tid 416] AH00456: Apache Lounge VS17 Server built: Jul 24 2025 14:32:29
+[Mon Dec 01 21:40:44.977449 2025] [core:notice] [pid 15420:tid 416] AH00094: Command line: 'D:\\university-3c5s\\network\\lab-6\\Apache24\\bin\\httpd.exe -d D:/university-3c5s/network/lab-6/Apache24'
+[Mon Dec 01 21:40:44.978426 2025] [mpm_winnt:notice] [pid 15420:tid 416] AH00418: Parent: Created child process 14628
+[Mon Dec 01 21:40:45.946939 2025] [mpm_winnt:notice] [pid 14628:tid 484] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 01 21:40:46.947387 2025] [mpm_winnt:notice] [pid 18640:tid 420] AH00364: Child: All worker threads have exited.
+[Mon Dec 01 21:50:21.592361 2025] [mpm_winnt:notice] [pid 15420:tid 416] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 01 21:50:23.594205 2025] [mpm_winnt:notice] [pid 14628:tid 484] AH00364: Child: All worker threads have exited.
+[Mon Dec 01 21:50:23.616205 2025] [mpm_winnt:notice] [pid 15420:tid 416] AH00430: Parent: Child process 14628 exited successfully.

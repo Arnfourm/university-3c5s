@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Config page</title>
+</head>
+<body>
+    <p> Все пользователи </p>
+
+    <div th:if="${userList == null or #lists.isEmpty(userList)}">
+        <p> Нет ни одного пользователя </p>
+    </div>
+
+    <div th:if="${userList != null or not #lists.isEmpty(userList)}">
+        <table>
+            <thead>
+            <tr>
+                <th scope="col"> Id пользователя </th>
+                <th scope="col"> Имя </th>
+                <th scope="col"> Фамилия </th>
+                <th scope="col"> Почта </th>
+            <tr>
+            </thead>
+
+            <tbody>
+            <tr th:each="user : ${userList}">
+                <th scope="row" th:text="${user.getId()}"> </th>
+                <td th:text="${user.getName()}"> </td>
+                <td th:text="${user.getSurname()}"> </td>
+                <td th:text="${user.getEmail()}">  </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br><br><br>
+
+    <p> Создать нового пользователя: </p>
+    <form th:action="@{/users}" method="post" th:object="${user}">
+        <label for="name">Name:</label>
+        <input type="text" th:field="*{name}" id="name" />
+        <br>
+
+        <label for="surname">Surname:</label>
+        <input type="text" th:field="*{surname}" id="surname" />
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" th:field="*{email}" id="email">
+        <br>
+
+        <input type="submit" value="Send" />
+    </form>
+
+    <br><br><br>
+
+    <form th:action="@{/users/delete}" method="post">
+        <label for="userId">Userid:</label>
+        <input type="number" id="userId" name="userid" th:value="${userid}"/>
+
+        <br>
+
+        <input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>

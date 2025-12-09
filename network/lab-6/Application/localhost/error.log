@@ -1,0 +1,67 @@
+[Mon Dec 01 18:03:22.025606 2025] [access_compat:error] [pid 12388:tid 1020] [client ::1:51450] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:03:22.182603 2025] [access_compat:error] [pid 12388:tid 1020] [client ::1:51450] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:03:22.311626 2025] [access_compat:error] [pid 12388:tid 1020] [client ::1:51450] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:03:22.445602 2025] [access_compat:error] [pid 12388:tid 1020] [client ::1:51450] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:03:22.945384 2025] [access_compat:error] [pid 12388:tid 1020] [client ::1:51450] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:03:23.089384 2025] [access_compat:error] [pid 12388:tid 1020] [client ::1:51450] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:04:26.491938 2025] [access_compat:error] [pid 12388:tid 1784] [client ::1:51485] AH01797: client denied by server configuration: D:/WebServer/localhost/www/, referer: http://catalog.ru/
+[Mon Dec 01 18:04:29.722582 2025] [access_compat:error] [pid 12388:tid 1784] [client ::1:51485] AH01797: client denied by server configuration: D:/WebServer/localhost/www/, referer: http://catalog.ru/
+[Mon Dec 01 18:04:31.954513 2025] [access_compat:error] [pid 12388:tid 1784] [client ::1:51485] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:04:44.616989 2025] [access_compat:error] [pid 12388:tid 1792] [client ::1:51486] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:04:44.963365 2025] [access_compat:error] [pid 11652:tid 1776] [client ::1:51491] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:04:45.251263 2025] [access_compat:error] [pid 11652:tid 1776] [client ::1:51491] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:04:45.424463 2025] [access_compat:error] [pid 11652:tid 1776] [client ::1:51491] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:04:45.589465 2025] [access_compat:error] [pid 11652:tid 1776] [client ::1:51491] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:04:45.743465 2025] [access_compat:error] [pid 11652:tid 1776] [client ::1:51491] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:04:45.875496 2025] [access_compat:error] [pid 11652:tid 1776] [client ::1:51491] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:04:48.254445 2025] [access_compat:error] [pid 11652:tid 1776] [client ::1:51491] AH01797: client denied by server configuration: D:/WebServer/localhost/www/, referer: http://catalog.ru/
+[Mon Dec 01 18:04:49.810297 2025] [access_compat:error] [pid 11652:tid 1776] [client ::1:51491] AH01797: client denied by server configuration: D:/WebServer/localhost/www/, referer: http://catalog.ru/
+[Mon Dec 01 18:04:51.048530 2025] [access_compat:error] [pid 11652:tid 1776] [client ::1:51491] AH01797: client denied by server configuration: D:/WebServer/localhost/www/, referer: http://catalog.ru/
+[Mon Dec 01 18:04:53.221986 2025] [access_compat:error] [pid 11652:tid 1776] [client ::1:51491] AH01797: client denied by server configuration: D:/WebServer/localhost/www/, referer: http://catalog.ru/
+[Mon Dec 01 18:04:57.771781 2025] [access_compat:error] [pid 11652:tid 1776] [client ::1:51491] AH01797: client denied by server configuration: D:/WebServer/localhost/www/, referer: http://catalog.ru/
+[Mon Dec 01 18:04:59.655925 2025] [access_compat:error] [pid 11652:tid 1776] [client ::1:51491] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:04:59.783923 2025] [access_compat:error] [pid 11652:tid 1776] [client ::1:51491] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:04:59.916923 2025] [access_compat:error] [pid 11652:tid 1776] [client ::1:51491] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:05:00.061922 2025] [access_compat:error] [pid 11652:tid 1776] [client ::1:51491] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:05:00.195924 2025] [access_compat:error] [pid 11652:tid 1776] [client ::1:51491] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:05:02.414671 2025] [access_compat:error] [pid 11652:tid 1776] [client ::1:51491] AH01797: client denied by server configuration: D:/WebServer/localhost/www/, referer: http://freecatalog.org/
+[Mon Dec 01 18:05:04.737210 2025] [access_compat:error] [pid 11652:tid 1776] [client ::1:51491] AH01797: client denied by server configuration: D:/WebServer/localhost/www/, referer: http://catalog.ru/
+[Mon Dec 01 18:05:19.371172 2025] [access_compat:error] [pid 11652:tid 1772] [client ::1:51492] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:11:14.654210 2025] [access_compat:error] [pid 8680:tid 1792] [client ::1:51573] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:11:15.220307 2025] [access_compat:error] [pid 8680:tid 1792] [client ::1:51573] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:11:15.711172 2025] [access_compat:error] [pid 8680:tid 1792] [client ::1:51573] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:11:15.838172 2025] [access_compat:error] [pid 8680:tid 1792] [client ::1:51573] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:11:15.965680 2025] [access_compat:error] [pid 8680:tid 1792] [client ::1:51573] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:11:16.109618 2025] [access_compat:error] [pid 8680:tid 1792] [client ::1:51573] AH01797: client denied by server configuration: D:/WebServer/localhost/www/
+[Mon Dec 01 18:11:18.735017 2025] [access_compat:error] [pid 8680:tid 1792] [client ::1:51573] AH01797: client denied by server configuration: D:/WebServer/localhost/www/, referer: http://catalog.ru/
+[Mon Dec 01 18:11:20.067072 2025] [access_compat:error] [pid 8680:tid 1792] [client ::1:51573] AH01797: client denied by server configuration: D:/WebServer/localhost/www/, referer: http://catalog.ru/
+[Mon Dec 01 18:11:20.212059 2025] [access_compat:error] [pid 8680:tid 1792] [client ::1:51573] AH01797: client denied by server configuration: D:/WebServer/localhost/www/, referer: http://catalog.ru/
+[Mon Dec 01 18:11:20.350083 2025] [access_compat:error] [pid 8680:tid 1792] [client ::1:51573] AH01797: client denied by server configuration: D:/WebServer/localhost/www/, referer: http://catalog.ru/
+[Mon Dec 01 18:11:20.488083 2025] [access_compat:error] [pid 8680:tid 1792] [client ::1:51573] AH01797: client denied by server configuration: D:/WebServer/localhost/www/, referer: http://catalog.ru/
+[Mon Dec 01 18:11:20.620056 2025] [access_compat:error] [pid 8680:tid 1792] [client ::1:51573] AH01797: client denied by server configuration: D:/WebServer/localhost/www/, referer: http://catalog.ru/
+[Mon Dec 01 18:11:20.755079 2025] [access_compat:error] [pid 8680:tid 1792] [client ::1:51573] AH01797: client denied by server configuration: D:/WebServer/localhost/www/, referer: http://catalog.ru/
+[Mon Dec 01 18:11:20.910059 2025] [access_compat:error] [pid 8680:tid 1792] [client ::1:51573] AH01797: client denied by server configuration: D:/WebServer/localhost/www/, referer: http://catalog.ru/
+[Mon Dec 01 18:11:21.060059 2025] [access_compat:error] [pid 8680:tid 1792] [client ::1:51573] AH01797: client denied by server configuration: D:/WebServer/localhost/www/, referer: http://catalog.ru/
+[Mon Dec 01 18:11:21.258448 2025] [access_compat:error] [pid 8680:tid 1792] [client ::1:51573] AH01797: client denied by server configuration: D:/WebServer/localhost/www/, referer: http://catalog.ru/
+[Mon Dec 01 18:11:21.409745 2025] [access_compat:error] [pid 8680:tid 1792] [client ::1:51573] AH01797: client denied by server configuration: D:/WebServer/localhost/www/, referer: http://catalog.ru/
+[Mon Dec 01 18:11:23.983647 2025] [access_compat:error] [pid 8680:tid 1792] [client ::1:51573] AH01797: client denied by server configuration: D:/WebServer/localhost/www/, referer: http://freecatalog.org/
+[Mon Dec 01 18:19:11.278565 2025] [authz_host:error] [pid 13700:tid 1784] [client ::1:51688] AH01753: access check of 'catalog.ru' to / failed, reason: unable to get the remote host name
+[Mon Dec 01 18:19:11.418564 2025] [authz_host:error] [pid 13700:tid 1784] [client ::1:51688] AH01753: access check of 'catalog.ru' to / failed, reason: unable to get the remote host name
+[Mon Dec 01 18:19:11.558565 2025] [authz_host:error] [pid 13700:tid 1784] [client ::1:51688] AH01753: access check of 'catalog.ru' to / failed, reason: unable to get the remote host name
+[Mon Dec 01 18:19:11.696565 2025] [authz_host:error] [pid 13700:tid 1784] [client ::1:51688] AH01753: access check of 'catalog.ru' to / failed, reason: unable to get the remote host name
+[Mon Dec 01 18:19:11.825585 2025] [authz_host:error] [pid 13700:tid 1784] [client ::1:51688] AH01753: access check of 'catalog.ru' to / failed, reason: unable to get the remote host name
+[Mon Dec 01 18:19:11.935564 2025] [authz_host:error] [pid 13700:tid 1784] [client ::1:51688] AH01753: access check of 'catalog.ru' to / failed, reason: unable to get the remote host name
+[Mon Dec 01 18:19:13.907872 2025] [authz_host:error] [pid 13700:tid 1784] [client ::1:51688] AH01753: access check of 'catalog.ru' to / failed, reason: unable to get the remote host name, referer: http://catalog.ru/
+[Mon Dec 01 18:19:47.970612 2025] [authz_host:error] [pid 13700:tid 1776] [client ::1:51689] AH01753: access check of 'catalog.ru' to / failed, reason: unable to get the remote host name
+[Mon Dec 01 18:19:48.103143 2025] [authz_host:error] [pid 872:tid 1768] [client ::1:64446] AH01753: access check of 'catalog.ru' to / failed, reason: unable to get the remote host name
+[Mon Dec 01 18:19:48.236143 2025] [authz_host:error] [pid 872:tid 1768] [client ::1:64446] AH01753: access check of 'catalog.ru' to / failed, reason: unable to get the remote host name
+[Mon Dec 01 18:19:48.356154 2025] [authz_host:error] [pid 872:tid 1768] [client ::1:64446] AH01753: access check of 'catalog.ru' to / failed, reason: unable to get the remote host name
+[Mon Dec 01 18:19:48.483138 2025] [authz_host:error] [pid 872:tid 1768] [client ::1:64446] AH01753: access check of 'catalog.ru' to / failed, reason: unable to get the remote host name
+[Mon Dec 01 21:41:20.907909 2025] [access_compat:error] [pid 14628:tid 1776] [client ::1:59583] AH01797: client denied by server configuration: D:/university-3c5s/network/lab-6/Application/localhost/www/test.avi
+[Mon Dec 01 21:42:10.122954 2025] [access_compat:error] [pid 14628:tid 1772] [client ::1:59586] AH01797: client denied by server configuration: D:/university-3c5s/network/lab-6/Application/localhost/www/nirvana_the-man-who-sold-the-world.mp3
+[Mon Dec 01 21:42:13.154162 2025] [access_compat:error] [pid 14628:tid 1772] [client ::1:59586] AH01797: client denied by server configuration: D:/university-3c5s/network/lab-6/Application/localhost/www/nirvana_the-man-who-sold-the-world.mp3
+[Mon Dec 01 21:42:13.544063 2025] [access_compat:error] [pid 14628:tid 1772] [client ::1:59586] AH01797: client denied by server configuration: D:/university-3c5s/network/lab-6/Application/localhost/www/nirvana_the-man-who-sold-the-world.mp3
+[Mon Dec 01 21:44:04.941368 2025] [cgi:error] [pid 14628:tid 1772] [client ::1:59632] End of script output before headers: printenv.pl
+[Mon Dec 01 21:47:07.242529 2025] [cgi:error] [pid 14628:tid 1772] [client ::1:53074] AH02811: stderr from D:/university-3c5s/network/lab-6/Apache24/cgi-bin/params.pl: script not found or unable to stat
+[Mon Dec 01 21:47:19.637562 2025] [cgi:error] [pid 14628:tid 1776] [client ::1:53075] AH01215: stderr from D:/university-3c5s/network/lab-6/Apache24/cgi-bin/givegetparams.pl: CGI::param called in list context from D:/university-3c5s/network/lab-6/Apache24/cgi-bin/givegetparams.pl line 17, this can lead to vulnerabilities. See the warning in "Fetching the value or values of a single named parameter" at D:/university/perl/vendor/lib/CGI.pm line 416.
+[Mon Dec 01 21:48:52.841634 2025] [cgi:error] [pid 14628:tid 1772] [client ::1:53106] AH01215: stderr from D:/university-3c5s/network/lab-6/Apache24/cgi-bin/givegetparams.pl: CGI::param called in list context from D:/university-3c5s/network/lab-6/Apache24/cgi-bin/givegetparams.pl line 17, this can lead to vulnerabilities. See the warning in "Fetching the value or values of a single named parameter" at D:/university/perl/vendor/lib/CGI.pm line 416.
