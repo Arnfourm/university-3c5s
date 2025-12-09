@@ -31,33 +31,4 @@
         <welcome-file>/WEB-INF/views/index.html</welcome-file>
     </welcome-file-list>
 
-<!--        <servlet-name>Configuration</servlet-name>-->
-<!--        <servlet-class>jdbc_application.servlets.ConfigurationServlet</servlet-class>-->
-<!--    </servlet>-->
-<!--    <servlet-mapping>-->
-<!--        <servlet-name>Configuration</servlet-name>-->
-<!--        <url-pattern>/configuration</url-pattern>-->
-<!--    </servlet-mapping>-->
-
-<!--    <servlet>-->
-<!--        <servlet-name>User</servlet-name>-->
-<!--        <servlet-class>jdbc_application.servlets.UserServlet</servlet-class>-->
-<!--    </servlet>-->
-<!--    <servlet-mapping>-->
-<!--        <servlet-name>User</servlet-name>-->
-<!--        <url-pattern>/user</url-pattern>-->
-<!--    </servlet-mapping>-->
-
-<!--    <servlet>-->
-<!--        <servlet-name>workUserServlet</servlet-name>-->
-<!--        <servlet-class>jdbc_application.servlets.workUserServlet</servlet-class>-->
-<!--    </servlet>-->
-<!--    <servlet-mapping>-->
-<!--        <servlet-name>workUserServlet</servlet-name>-->
-<!--        <url-pattern>/workuser</url-pattern>-->
-<!--    </servlet-mapping>-->
-
-<!--    <servlet-mapping>-->
-<!--        <servlet-name></servlet-name>-->
-<!--    </servlet-mapping>-->
 </web-app>

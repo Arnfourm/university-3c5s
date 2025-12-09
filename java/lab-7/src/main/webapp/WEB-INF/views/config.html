@@ -38,6 +38,10 @@
 
     <br><br><br>
 
+    <div th:if="${errorMessage != null">
+        <p style="color:red">${errorMessage}</p>
+    </div>
+
     <p> Создать новую конфигурацию: </p>
     <form th:action="@{/configs}" method="post" th:object="${config}">
         <label for="cpuName">Cpu name:</label>

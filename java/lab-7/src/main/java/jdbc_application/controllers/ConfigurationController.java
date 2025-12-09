@@ -2,12 +2,11 @@ package jdbc_application.controllers;
 
 import jdbc_application.DAO.ConfigurationDAO;
 import jdbc_application.models.Configurations;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.MethodArgumentNotValidException;
+import org.springframework.web.bind.annotation.*;
 import jakarta.validation.Valid;
 
 import java.util.List;
@@ -40,6 +39,14 @@ public class ConfigurationController {
         _configurationDAO.CreateConfiguration(config);
 
         return "redirect:/configs";
+    }
+    @ExceptionHandler(MethodArgumentNotValidException.class) public ResponseEntity<String> handleValidationException(MethodArgumentNotValidException ex, Model model)
+    {
+        String errorMessage = ex.getBindingResult().getFieldErrors().get(0).getDefaultMessage();
+
+        model.addAttribute("exception", errorMessage);
+
+        return ResponseEntity.badRequest().body("Validation Error: " + errorMessage);
     }
 
     @PostMapping("/configs/delete")

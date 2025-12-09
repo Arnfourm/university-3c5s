@@ -15,7 +15,7 @@ public class Configurations {
     @Size(min = 2, max = 100, message = "Cpu required lenght is from 2 to 100")
     private String cpu_name;
 
-    @DecimalMin("0.0")
+    @DecimalMin(value = "0.0", message = "Cpu ghz can't be less then zero")
     @DecimalMax("10.0")
     @NotNull
     private float cpu_ghz;
