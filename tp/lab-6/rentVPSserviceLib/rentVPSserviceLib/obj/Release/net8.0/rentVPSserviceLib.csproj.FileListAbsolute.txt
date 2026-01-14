@@ -1,0 +1,12 @@
+D:\university-3c5s\tp\lab-6\rentVPSserviceLib\rentVPSserviceLib\bin\Release\net8.0\rentVPSserviceLib.deps.json
+D:\university-3c5s\tp\lab-6\rentVPSserviceLib\rentVPSserviceLib\bin\Release\net8.0\rentVPSserviceLib.dll
+D:\university-3c5s\tp\lab-6\rentVPSserviceLib\rentVPSserviceLib\bin\Release\net8.0\rentVPSserviceLib.pdb
+D:\university-3c5s\tp\lab-6\rentVPSserviceLib\rentVPSserviceLib\obj\Release\net8.0\rentVPSserviceLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\university-3c5s\tp\lab-6\rentVPSserviceLib\rentVPSserviceLib\obj\Release\net8.0\rentVPSserviceLib.AssemblyInfoInputs.cache
+D:\university-3c5s\tp\lab-6\rentVPSserviceLib\rentVPSserviceLib\obj\Release\net8.0\rentVPSserviceLib.AssemblyInfo.cs
+D:\university-3c5s\tp\lab-6\rentVPSserviceLib\rentVPSserviceLib\obj\Release\net8.0\rentVPSserviceLib.csproj.CoreCompileInputs.cache
+D:\university-3c5s\tp\lab-6\rentVPSserviceLib\rentVPSserviceLib\obj\Release\net8.0\rentVPSserviceLib.sourcelink.json
+D:\university-3c5s\tp\lab-6\rentVPSserviceLib\rentVPSserviceLib\obj\Release\net8.0\rentVPSserviceLib.dll
+D:\university-3c5s\tp\lab-6\rentVPSserviceLib\rentVPSserviceLib\obj\Release\net8.0\refint\rentVPSserviceLib.dll
+D:\university-3c5s\tp\lab-6\rentVPSserviceLib\rentVPSserviceLib\obj\Release\net8.0\rentVPSserviceLib.pdb
+D:\university-3c5s\tp\lab-6\rentVPSserviceLib\rentVPSserviceLib\obj\Release\net8.0\ref\rentVPSserviceLib.dll
