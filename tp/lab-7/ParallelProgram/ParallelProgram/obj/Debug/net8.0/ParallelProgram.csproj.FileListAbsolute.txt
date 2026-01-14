@@ -1,0 +1,15 @@
+D:\university-3c5s\tp\lab-7\ParallelProgram\ParallelProgram\bin\Debug\net8.0\ParallelProgram.exe
+D:\university-3c5s\tp\lab-7\ParallelProgram\ParallelProgram\bin\Debug\net8.0\ParallelProgram.deps.json
+D:\university-3c5s\tp\lab-7\ParallelProgram\ParallelProgram\bin\Debug\net8.0\ParallelProgram.runtimeconfig.json
+D:\university-3c5s\tp\lab-7\ParallelProgram\ParallelProgram\bin\Debug\net8.0\ParallelProgram.dll
+D:\university-3c5s\tp\lab-7\ParallelProgram\ParallelProgram\bin\Debug\net8.0\ParallelProgram.pdb
+D:\university-3c5s\tp\lab-7\ParallelProgram\ParallelProgram\obj\Debug\net8.0\ParallelProgram.GeneratedMSBuildEditorConfig.editorconfig
+D:\university-3c5s\tp\lab-7\ParallelProgram\ParallelProgram\obj\Debug\net8.0\ParallelProgram.AssemblyInfoInputs.cache
+D:\university-3c5s\tp\lab-7\ParallelProgram\ParallelProgram\obj\Debug\net8.0\ParallelProgram.AssemblyInfo.cs
+D:\university-3c5s\tp\lab-7\ParallelProgram\ParallelProgram\obj\Debug\net8.0\ParallelProgram.csproj.CoreCompileInputs.cache
+D:\university-3c5s\tp\lab-7\ParallelProgram\ParallelProgram\obj\Debug\net8.0\ParallelProgram.sourcelink.json
+D:\university-3c5s\tp\lab-7\ParallelProgram\ParallelProgram\obj\Debug\net8.0\ParallelProgram.dll
+D:\university-3c5s\tp\lab-7\ParallelProgram\ParallelProgram\obj\Debug\net8.0\refint\ParallelProgram.dll
+D:\university-3c5s\tp\lab-7\ParallelProgram\ParallelProgram\obj\Debug\net8.0\ParallelProgram.pdb
+D:\university-3c5s\tp\lab-7\ParallelProgram\ParallelProgram\obj\Debug\net8.0\ParallelProgram.genruntimeconfig.cache
+D:\university-3c5s\tp\lab-7\ParallelProgram\ParallelProgram\obj\Debug\net8.0\ref\ParallelProgram.dll
