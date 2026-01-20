@@ -1,0 +1,29 @@
+Middleware loaded
+Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16565 B).
+Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+Now listening on: http://localhost:5082
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\university-3c5s\tp\lab-6\rentVPSmicroservices-lib\rentVPSmicroservices.microserviceConfigs
+Response markup is scheduled to include browser refresh script injection.
+Response markup was updated to include browser refresh script injection.
+Script injected: /_framework/aspnetcore-browser-refresh.js
+Failed to determine the https port for redirect.
+Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT c."Id", c."CPU_ghz", c."CPU_name", c."GPU_name", c."GPU_vram", c."OS", c."RAM", c.disk_size
+FROM "Configurations" AS c
+[12:25:31] [GetConfigurations] Succes: object with id 019a1be5-6fc5-7731-bdd3-4909de377455 was watched
+[12:25:31] [GetConfigurations] Succes: object with id 019a1c71-ef19-7437-ae7c-7b628e3a6192 was watched
+[12:25:31] [GetConfigurations] Succes: object with id 019a1fe2-558a-7a10-b383-61aaae83f021 was watched
+[12:25:31] [GetConfigurations] Succes: object with id 3fa85f64-5717-4562-b3fc-2c963f66afa6 was watched
+[12:25:31] [GetConfigurations] Succes: object with id e20cc97e-ca0b-4ba9-a75a-e364dcf82500 was watched
+[12:25:31] [GetConfigurations] Succes: object with id 38be0e9c-f76f-40ac-a5c0-3c20c659975b was watched
+[12:25:31] [GetConfigurations] Succes: object with id 1922b9cd-10f3-4a6a-a551-b7ac42e72b72 was watched
+Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT c."Id", c."CPU_ghz", c."CPU_name", c."GPU_name", c."GPU_vram", c."OS", c."RAM", c.disk_size
+FROM "Configurations" AS c
+Executed DbCommand (110ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Single), @p2='?', @p3='?', @p4='?' (DbType = Int32), @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Configurations" ("Id", "CPU_ghz", "CPU_name", "GPU_name", "GPU_vram", "OS", "RAM", disk_size)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+[12:25:45] [PostConfiguration] Succes: object with id ce3377f5-dedc-46af-8d0a-270d709c4fb6 was created

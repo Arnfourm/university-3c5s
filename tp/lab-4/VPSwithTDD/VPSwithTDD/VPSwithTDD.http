@@ -1,0 +1,6 @@
+@VPSwithTDD_HostAddress = http://localhost:5221
+
+GET {{VPSwithTDD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
